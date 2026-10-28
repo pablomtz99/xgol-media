@@ -20,7 +20,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
-API = "https://graph.facebook.com/v21.0"
+API = "https://graph.facebook.com/v26.0"
 REPO = os.environ.get("GITHUB_REPOSITORY", "pablomtz99/xgol-media")
 BRANCH = os.environ.get("BRANCH", "main")
 RAW = f"https://raw.githubusercontent.com/{REPO}/{BRANCH}"
