@@ -1,41 +1,40 @@
-"""xGol — NBA: la noche en números (3 partidos)."""
+"""xGol — NBA: la noche en números (v2, modelo ataque/defensa ajustado por rival)."""
 import json, os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from render_car_gb import font, base, footer, para, kicker, BG, SURF, LINE, TXT, MUTED, ACC, NEG, W, H, M
 
-D = json.load(open(os.environ.get("NBA_JSON", "/tmp/nba_tonight.json")))
+D = json.load(open(os.environ["NBA_JSON"]))
+O, BT = D["out"], D["bt"]
 OUT = os.environ.get("XGOL_OUT", "/tmp/xgol-out/nba")
 os.makedirs(OUT, exist_ok=True)
 T = 5
 GAMES = [
     ("SAS@UTA", "SAS", "UTA", "19:00", "Spurs", "Jazz",
-     "Mismo guion que la temporada pasada: SAS sigue en positivo y UTA permite 121 puntos por partido."),
+     "Bajas: UTA sin Jackson Jr. y con Markkanen en duda. SAS juega su segundo partido en dos noches; aun así, la mayor brecha defensiva de la noche (8.9 pts) es a su favor."),
     ("OKC@DAL", "OKC", "DAL", "19:30", "Thunder", "Mavericks",
-     "OKC no ha bajado el ritmo: +11.1 por partido el año pasado y +10.5 en su arranque 4-0."),
+     "La defensa de OKC es la mejor de la noche: permite 7.9 pts menos que el promedio. Bajas: OKC sin Holmgren ni Caruso; DAL sin Lively e Irving en duda."),
     ("LAL@LAC", "LAL", "LAC", "20:30", "Lakers", "Clippers",
-     "Empate técnico. LAL arranca en +8.0, pero el año pasado fue +1.8: el modelo no se cree todavía el arranque."),
+     "Ojo: el modelo no ve lesiones. Sin Dončić (espalda), el 52% de LAL probablemente está inflado. LAC sin Ingram, Beal ni Hachimura; LAL en segunda noche seguida."),
 ]
 
 
 def pct(key):
-    p_home = D["out"][key]["p_home"]
+    p_home = O[key]["p_home"]
     return 100 - p_home, p_home
 
 
 def bar(d, y, a, h, pa, ph):
     bw = W - 2 * M
-    d.rounded_rectangle((M, y, M + bw, y + 70), radius=14, fill=SURF)
-    fav_home = ph >= pa
-    if pa == ph:
-        d.rounded_rectangle((M, y, M + bw // 2, y + 70), radius=14, fill=MUTED)
-    elif fav_home:
-        d.rounded_rectangle((M + bw - int(bw * ph / 100), y, M + bw, y + 70), radius=14, fill=ACC)
+    d.rounded_rectangle((M, y, M + bw, y + 64), radius=14, fill=SURF)
+    fav_home = ph > pa
+    if fav_home:
+        d.rounded_rectangle((M + bw - int(bw * ph / 100), y, M + bw, y + 64), radius=14, fill=ACC)
     else:
-        d.rounded_rectangle((M, y, M + int(bw * pa / 100), y + 70), radius=14, fill=ACC)
-    fn = font("InterDisplay-Bold.otf", 40)
-    d.text((M + 24, y + 12), f"{a} {pa}%", font=fn, fill=BG if (not fav_home and pa != ph) else TXT)
+        d.rounded_rectangle((M, y, M + int(bw * pa / 100), y + 64), radius=14, fill=ACC)
+    fn = font("InterDisplay-Bold.otf", 38)
+    d.text((M + 24, y + 10), f"{a} {pa}%", font=fn, fill=TXT if fav_home else BG)
     s = f"{h} {ph}%"
-    d.text((M + bw - 24 - d.textlength(s, font=fn), y + 12), s, font=fn, fill=BG if (fav_home and pa != ph) else TXT)
+    d.text((M + bw - 24 - d.textlength(s, font=fn), y + 10), s, font=fn, fill=BG if fav_home else TXT)
 
 
 def cover():
@@ -47,59 +46,73 @@ def cover():
     y = 470
     for key, a, h, hour, *_ in GAMES:
         pa, ph = pct(key)
+        o = O[key]
         d.line((M, y, W - M, y), fill=LINE, width=2)
-        y += 30
-        d.text((M, y), hour, font=font("Inter-SemiBold.otf", 30), fill=MUTED)
-        d.text((M + 130, y - 10), f"{a} @ {h}", font=font("InterDisplay-Black.otf", 60), fill=TXT)
+        y += 26
+        d.text((M, y + 8), hour, font=font("Inter-SemiBold.otf", 30), fill=MUTED)
+        d.text((M + 130, y - 4), f"{a} @ {h}", font=font("InterDisplay-Black.otf", 58), fill=TXT)
         fav = a if pa > ph else h
-        s = "50 / 50" if pa == ph else f"{fav} {max(pa, ph)}%"
+        s = f"{fav} {max(pa, ph)}%"
         fs = font("InterDisplay-Bold.otf", 44)
-        d.text((W - M - d.textlength(s, font=fs), y - 2), s, font=fs, fill=ACC if pa != ph else TXT)
-        y += 120
+        d.text((W - M - d.textlength(s, font=fs), y + 2), s, font=fs, fill=ACC)
+        proj = f"Proyección {a} {o['pa']:.0f} – {o['ph']:.0f} {h}"
+        d.text((M + 130, y + 70), proj, font=font("Inter-Medium.otf", 28), fill=MUTED)
+        y += 128
     d.line((M, y, W - M, y), fill=LINE, width=2)
-    para(d, (M, y + 40), "Probabilidad de victoria según el modelo xGol. Desliza para ver los números de cada duelo.",
-         font("Inter-Regular.otf", 32), MUTED, W - 2 * M, 44)
+    para(d, (M, y + 36), "Probabilidad de victoria y marcador proyectado con nuestro modelo de ataque y defensa ajustados por rival. Desliza.",
+         font("Inter-Regular.otf", 30), MUTED, W - 2 * M, 42)
     footer(d, 1, T)
     return im
 
 
 def game_slide(i, key, a, h, hour, na, nh, story):
     im, d = base()
-    o = D["out"][key]
+    o = O[key]
     pa, ph = pct(key)
     kicker(d, 110, f"{hour} CDMX · {na} @ {nh}")
-    fb = font("InterDisplay-Black.otf", 150)
-    d.text((M - 4, 160), a, font=fb, fill=TXT)
+    fb = font("InterDisplay-Black.otf", 140)
+    d.text((M - 4, 150), a, font=fb, fill=TXT)
     wa = d.textlength(a, font=fb)
-    d.text((M + wa + 24, 222), "@", font=font("InterDisplay-Medium.otf", 80), fill=MUTED)
-    d.text((M + wa + 110, 160), h, font=fb, fill=TXT)
-    d.text((M, 370), "Probabilidad de victoria · modelo xGol", font=font("Inter-Medium.otf", 28), fill=MUTED)
-    bar(d, 420, a, h, pa, ph)
+    d.text((M + wa + 24, 206), "@", font=font("InterDisplay-Medium.otf", 76), fill=MUTED)
+    d.text((M + wa + 106, 150), h, font=fb, fill=TXT)
+    d.text((M, 340), "Probabilidad de victoria · nuestro modelo", font=font("Inter-Medium.otf", 26), fill=MUTED)
+    bar(d, 382, a, h, pa, ph)
     rows = [
-        ("Récord 2026-27", o["a"]["rec"], o["h"]["rec"], False),
-        ("Dif. de puntos / partido, 2026-27", f"{o['a']['cur']:+.1f}", f"{o['h']['cur']:+.1f}", True),
-        ("Dif. de puntos / partido, 2025-26", f"{o['a']['prev']:+.1f}", f"{o['h']['prev']:+.1f}", True),
-        ("Puntos permitidos / partido, 2026-27", f"{o['a']['opp']:.1f}", f"{o['h']['opp']:.1f}", False),
+        ("Rating neto ajustado por rival", o["net_a"], o["net_h"], True),
+        ("Ataque vs. promedio (pts)", o["off_a"], o["off_h"], True),
+        ("Defensa vs. promedio (pts)", -o["def_a"], -o["def_h"], True),
+        ("Días de descanso", o["rest"][a], o["rest"][h], False),
     ]
-    y = 560
-    fh = font("Inter-SemiBold.otf", 26)
-    cx1, cx2 = 690, 880
+    y = 482
+    fh = font("Inter-SemiBold.otf", 24)
+    cx1, cx2 = 700, 880
     d.text((cx1, y), a, font=fh, fill=MUTED); d.text((cx2, y), h, font=fh, fill=MUTED)
-    y += 50
-    fl = font("Inter-Medium.otf", 30)
-    fv = font("InterDisplay-Bold.otf", 44)
+    y += 40
+    fl = font("Inter-Medium.otf", 28)
+    fv = font("InterDisplay-Bold.otf", 40)
     for lab, va, vh, signed in rows:
         d.line((M, y, W - M, y), fill=LINE, width=2)
-        y += 26
-        para(d, (M, y + 6), lab, fl, TXT, 560, 38)
+        y += 18
+        d.text((M, y + 8), lab, font=fl, fill=TXT)
         for cx, v in ((cx1, va), (cx2, vh)):
-            col = TXT
             if signed:
-                col = ACC if v.startswith("+") else NEG
-            d.text((cx, y), v, font=fv, fill=col)
-        y += 96
+                s, col = f"{v:+.1f}", (ACC if v > 0 else NEG)
+            else:
+                s, col = (f"{v}" if v else "0 (B2B)"), (TXT if v else NEG)
+            d.text((cx, y), s, font=fv if signed or v else font("InterDisplay-Bold.otf", 32), fill=col)
+        y += 66
     d.line((M, y, W - M, y), fill=LINE, width=2)
-    para(d, (M, y + 34), story, font("Inter-Medium.otf", 32), TXT, W - 2 * M, 44)
+    y += 22
+    fav, m = (h, o["margin"]) if o["margin"] > 0 else (a, -o["margin"])
+    d.text((M, y), "Marcador proyectado", font=font("Inter-Medium.otf", 26), fill=MUTED)
+    s = f"{a} {o['pa']:.0f} – {o['ph']:.0f} {h}"
+    d.text((M, y + 36), s, font=font("InterDisplay-Black.otf", 54), fill=TXT)
+    lo, hi = o["lo"], o["hi"]
+    rng = f"Margen {h}: {lo:+.0f} a {hi:+.0f} (80%)"
+    d.text((W - M - d.textlength(rng, font=font("Inter-Medium.otf", 26)), y + 56), rng, font=font("Inter-Medium.otf", 26), fill=MUTED)
+    y += 116
+    d.line((M, y, W - M, y), fill=LINE, width=2)
+    para(d, (M, y + 26), story, font("Inter-Medium.otf", 29), TXT, W - 2 * M, 40)
     footer(d, i, T)
     return im
 
@@ -107,25 +120,34 @@ def game_slide(i, key, a, h, hour, na, nh, story):
 def method():
     im, d = base()
     kicker(d, 110, "Cómo lo calculamos")
-    f = font("InterDisplay-Black.otf", 92)
-    d.text((M, 160), "Modelo xGol", font=f, fill=TXT)
-    d.text((M, 262), "NBA v0", font=f, fill=TXT)
+    f = font("InterDisplay-Black.otf", 88)
+    d.text((M, 160), "Modelo NBA v1", font=f, fill=TXT)
     items = [
-        ("1", "Fuerza de cada equipo = diferencia de puntos por partido."),
-        ("2", "Mezclamos la temporada pasada (reducida a la mitad) con este arranque. El arranque pesa más con cada partido jugado."),
-        ("3", "+1.8 puntos por jugar en casa (promedio 2025-26)."),
-        ("4", "Error típico de ±14 puntos por partido → probabilidad."),
+        ("1", "Cada marcador se descompone en ataque de un equipo + defensa del rival + localía (regresión ridge)."),
+        ("2", "Punto de partida: 60% del nivel 2025-26. Cada partido nuevo pesa más que el anterior."),
+        ("3", f"Error típico ±{BT['sd']:.1f} pts por partido → probabilidad e intervalo del 80%."),
     ]
-    y = 440
+    y = 300
     for n, t in items:
-        d.text((M, y - 6), n, font=font("InterDisplay-Black.otf", 54), fill=ACC)
-        y = max(para(d, (M + 80, y), t, font("Inter-Medium.otf", 32), TXT, W - 2 * M - 80, 44), y + 44) + 36
-    d.line((M, y, W - M, y), fill=LINE, width=2)
-    fs = font("Inter-Regular.otf", 27)
-    y = para(d, (M, y + 30), "Cada equipo lleva apenas 3 o 4 partidos: incertidumbre alta. Un 73% significa que el otro gana en más de 1 de cada 4 escenarios.",
-             fs, MUTED, W - 2 * M, 38)
-    para(d, (M, y + 20), "Datos: BALLDONTLIE, temporada regular 2025-26 y 2026-27. Análisis independiente, no afiliado a la NBA ni a ningún equipo. No es recomendación de apuesta.",
-         fs, MUTED, W - 2 * M, 38)
+        d.text((M, y - 6), n, font=font("InterDisplay-Black.otf", 50), fill=ACC)
+        y = max(para(d, (M + 70, y), t, font("Inter-Medium.otf", 30), TXT, W - 2 * M - 70, 41), y + 41) + 28
+    # backtest box
+    y += 6
+    d.rounded_rectangle((M, y, W - M, y + 330), radius=20, fill=SURF)
+    d.text((M + 32, y + 26), "PRUEBA FUERA DE MUESTRA · 2025-26", font=font("Inter-Bold.otf", 22), fill=ACC)
+    para(d, (M + 32, y + 62), f"{BT['n']:,} partidos predichos solo con datos previos a cada día.",
+         font("Inter-Regular.otf", 26), MUTED, W - 2 * M - 64, 34)
+    cols = [(f"{100*BT['acc']:.0f}%", "aciertos"), (f"{BT['brier']:.3f}", f"Brier (ref. {BT['base']:.3f})"), ("81%", "ganó cuando dijo 70-80%")]
+    cw = (W - 2 * M - 64) // 3
+    for k, (v, l) in enumerate(cols):
+        x = M + 32 + k * cw
+        d.text((x, y + 136), v, font=font("InterDisplay-Black.otf", 64), fill=TXT)
+        para(d, (x, y + 220), l, font("Inter-Medium.otf", 24), MUTED, cw - 20, 32)
+    y += 360
+    para(d, (M, y), "Límites: no ve lesiones ni rotaciones, y en octubre hay pocos partidos. Menor Brier = mejor.",
+         font("Inter-Regular.otf", 26), MUTED, W - 2 * M, 36)
+    para(d, (M, H - 175), "Datos: BALLDONTLIE y reportes de lesiones públicos al 28 oct, 18:00 CDMX. Análisis independiente, no afiliado a la NBA ni a sus equipos. No es recomendación de apuesta.",
+         font("Inter-Regular.otf", 19), MUTED, W - 2 * M, 26)
     footer(d, 5, T)
     return im
 

@@ -1,10 +1,16 @@
-La noche NBA en números 🏀
-🕖 19:00 SAS @ UTA · el modelo xGol: SAS 73%
-🕢 19:30 OKC @ DAL · OKC 73%
-🕣 20:30 LAL @ LAC · 50/50, empate técnico
-OKC no ha bajado el ritmo: +11.1 puntos por partido el año pasado y +10.5 en su arranque 4-0.
-Ojo: cada equipo lleva apenas 3-4 partidos. Incertidumbre alta.
-Desliza para ver cada duelo 👉
-📊 Datos: BALLDONTLIE · Horarios CDMX
-⚠️ Análisis estadístico, no recomendación de apuesta.
-#NBA #NBAenEspañol #Thunder #Spurs #Lakers #Clippers #DatosDeportivos #xGol
+La noche NBA en números 🏀 (hora CDMX)
+
+19:00 · SAS @ UTA → SAS 77% · proyección 123-112
+19:30 · OKC @ DAL → OKC 75% · proyección 116-106
+20:30 · LAL @ LAC → LAL 52% · proyección 116-116
+
+Lo más interesante:
+• SAS y LAL juegan su segunda noche seguida (back-to-back).
+• La defensa de OKC permite 7.9 pts menos que el promedio, ajustado por rival.
+• El modelo no ve lesiones: sin Dončić, el 52% de LAL probablemente está inflado. ¿Cuánto lo bajarías tú?
+
+Método: ataque y defensa de cada equipo ajustados por rival (regresión ridge), partiendo de 2025-26. En prueba fuera de muestra con 1,090 partidos de 2025-26 acertó 69% (Brier 0.205 vs. 0.248 de referencia).
+
+Datos: BALLDONTLIE y reportes de lesiones públicos al 28 oct. Análisis independiente, no afiliado a la NBA ni a sus equipos. No es recomendación de apuesta.
+
+#NBA #NBAenEspañol #Spurs #Thunder #Lakers #Clippers #DatosDeportivos #xGol
