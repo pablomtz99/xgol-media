@@ -1,0 +1,59 @@
+name: Publicar en Instagram
+
+on:
+  push:
+    branches: [main]
+    paths: ["queue/**"]
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "publicar = publica lo pendiente · revisar = solo prueba el token"
+        type: choice
+        options: [publicar, revisar]
+        default: publicar
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Revisar token
+        if: ${{ github.event.inputs.mode == 'revisar' }}
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: python scripts/publish.py --check
+
+      - name: Publicar posts pendientes
+        if: ${{ github.event.inputs.mode != 'revisar' }}
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: |
+          if ls queue/*.json >/dev/null 2>&1; then python scripts/publish.py; else echo "Cola vacía."; fi
+
+      - name: Guardar estado
+        if: ${{ always() && github.event.inputs.mode != 'revisar' }}
+        run: |
+          git config user.name "xgol-bot"
+          git config user.email "xgol-bot@users.noreply.github.com"
+          git add -A queue published 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "Estado de publicación actualizado"
+            git pull --rebase origin main
+            git push
+          fi
