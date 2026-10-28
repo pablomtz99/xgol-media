@@ -16,7 +16,8 @@ Objetivo de la etapa 1: crecer audiencia con análisis deportivo **muy numérico
 ## Reglas legales y de plataforma (no negociables)
 - **Cero fotos de jugadores** (LFDA art. 87, derecho a la propia imagen) y **cero logos/escudos** (marcas). Equipos solo por nombre o abreviatura en texto.
 - **Nada de lenguaje de apuestas**: no "pick", "momio", "cuota", "parlay", "apuesta", "lock", "valor". No mostrar líneas de casas de apuestas. TikTok trata pronósticos y análisis de momios como contenido de apuestas.
-- Decir "el modelo xGol estima 56%", nunca "va a ganar".
+- Decir "nuestro modelo estima 56%", nunca "va a ganar". En deportes que no son futbol, no usar "modelo xGol" en títulos (confunde): "Modelo NBA v1", "Modelo NFL v0".
+- Aviso legal en letra pequeña (≈19 px) al pie del slide de método.
 - Siempre: "Análisis independiente, no afiliado a ninguna liga" y "No es recomendación de apuesta" en el slide de método o caption.
 - **No copiar tablas crudas** de proveedores. Publicar métricas y conclusiones propias.
 - Crédito de datos cuando la licencia lo pide (nflverse: CC-BY 4.0 → "Datos: nflverse").
@@ -33,7 +34,15 @@ Objetivo de la etapa 1: crecer audiencia con análisis deportivo **muy numérico
 
 **Limitación actual:** la sesión de Claude solo tiene salida a GitHub y registros de paquetes. Las APIs que no estén en GitHub deben consultarse desde GitHub Actions (pendiente de montar). Mientras tanto, las opciones diarias se basan sobre todo en NFL.
 
-## Modelo xGol v0 (NFL)
+## Modelo NBA v1
+- Ataque y defensa por equipo con regresión ridge sobre cada marcador; prior = 60% del nivel de la temporada pasada; σ ≈ 14.7.
+- Backtest 2025-26 (1,090 partidos, fuera de muestra): 69% aciertos, Brier 0.205 vs 0.248; calibrado.
+- Código y datos en el repo privado `xgol-data` (`models/`). Revisar reporte de lesiones antes de publicar (el modelo no las ve).
+
+## TikTok
+- Pablo sube manualmente los mismos JPG como carrusel de fotos. Evitar cualquier lenguaje de apuestas.
+
+## Modelo v0 (NFL)
 - Margen esperado = 0.5 × (EPA neta/jugada local − EPA neta/jugada visitante) × 61.6 jugadas + 1.5 pts de localía.
 - Probabilidad = Φ(margen / 13.5).
 - El factor 0.5 es regresión a la media por muestra corta; revisarlo conforme avance la temporada.
