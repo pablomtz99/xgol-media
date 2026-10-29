@@ -25,6 +25,11 @@ Pablo quiere **más análisis estadístico, más técnico, más datos** en cada 
 7. Narrativa persuasiva y creativa: un gancho numérico en la portada ("1 en 15"), tensión entre datos que se contradicen, pregunta final en el caption.
 8. Decir n y fuente de cada número. Si un dato no se puede verificar, no va.
 
+## Ángulo y venta (desde 28 oct 2026)
+- Cada idea necesita un **ángulo único** y una historia: storylines del día (exjugadores, rachas, invictos, sequías), estadísticas públicas en línea y contexto.
+- Usar momios como **"probabilidad del mercado"** (quitando el margen de la casa) y compararla con nuestro modelo: "Modelo vs. mercado". Nunca mostrar momios, líneas, nombres de casas, links ni llamados a apostar.
+- 4 ideas por día, idealmente de deportes distintos.
+
 ## Reglas legales y de plataforma (no negociables)
 - **Cero fotos de jugadores** (LFDA art. 87, derecho a la propia imagen) y **cero logos/escudos** (marcas). Equipos solo por nombre o abreviatura en texto.
 - **Nada de lenguaje de apuestas**: no "pick", "momio", "cuota", "parlay", "apuesta", "lock", "valor". No mostrar líneas de casas de apuestas. TikTok trata pronósticos y análisis de momios como contenido de apuestas.
