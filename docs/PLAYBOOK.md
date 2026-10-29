@@ -13,6 +13,17 @@ Objetivo de la etapa 1: crecer audiencia con análisis deportivo **muy numérico
 3. Pablo elige. Solo entonces: renderizar el carrusel completo, escribir el caption y ponerlo en la cola.
 4. Nunca publicar nada que Pablo no haya aprobado.
 
+## Estándar técnico (obligatorio desde 28 oct 2026)
+Pablo quiere **más análisis estadístico, más técnico, más datos** en cada post. Mínimos:
+1. **Modelo explícito** con su método en el último slide (fórmula o pasos) y sus supuestos/límites.
+2. **Incertidumbre siempre**: probabilidad + intervalo (p. ej. 80%) o error típico; nunca un número sin rango.
+3. **Validación**: métrica fuera de muestra cuando exista (aciertos, Brier vs. referencia, calibración, n).
+4. **Métricas ajustadas** (por rival, por ritmo, por localía, por descanso) en lugar de promedios crudos.
+5. Al menos **una prueba o contraste formal** por post cuando aplique: prueba de hipótesis con p-valor, tamaño del efecto, regresión a la media (real vs. esperado), simulación Monte Carlo o probabilidad compuesta.
+6. **Densidad**: cada slide de partido con ≥ 4 métricas comparadas; contexto (lesiones, back-to-back, abridores) verificado el mismo día.
+7. Narrativa persuasiva y creativa: un gancho numérico en la portada ("1 en 15"), tensión entre datos que se contradicen, pregunta final en el caption.
+8. Decir n y fuente de cada número. Si un dato no se puede verificar, no va.
+
 ## Reglas legales y de plataforma (no negociables)
 - **Cero fotos de jugadores** (LFDA art. 87, derecho a la propia imagen) y **cero logos/escudos** (marcas). Equipos solo por nombre o abreviatura en texto.
 - **Nada de lenguaje de apuestas**: no "pick", "momio", "cuota", "parlay", "apuesta", "lock", "valor". No mostrar líneas de casas de apuestas. TikTok trata pronósticos y análisis de momios como contenido de apuestas.
