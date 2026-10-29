@@ -1,0 +1,15 @@
+De 9% a campeón ⚾🏆
+
+En agosto, los mercados de predicción le daban 9% de ser campeón a Milwaukee. Hoy, los Brewers ganaron el primer título de su historia (4-1 en el Juego 5).
+
+¿Suerte? Los números dicen que no:
+• Mejor récord de MLB (103-59) y mejor diferencial (+214).
+• Por sus carreras "merecían" 102.5 victorias: ganaron justo lo que merecían.
+• Antes de la Serie, nuestro modelo les daba 68% (el mercado, 62%).
+• El final que pasó, "MIL en 5", era el tercero más probable de ocho (17.6%).
+
+¿El título más merecido de la década? Te leo 👇
+
+Método: expectativa pitagórica + log5 + localía + árbol de los 8 finales posibles. Análisis independiente, no afiliado a MLB. No es recomendación de apuesta.
+
+#MLB #SerieMundial #Brewers #Beisbol #Estadística #xGol
