@@ -43,6 +43,10 @@ Pablo quiere **más análisis estadístico, más técnico, más datos** en cada 
 - Usar momios como **"probabilidad del mercado"** (quitando el margen de la casa) y compararla con nuestro modelo: "Modelo vs. mercado". Nunca mostrar momios, líneas, nombres de casas, links ni llamados a apostar.
 - 4 ideas por día, idealmente de deportes distintos.
 
+## Diseño v7 (vigente desde 28 oct 2026): usar todo el espacio
+- Motor `studio/layout_v7.py` + `studio/posts_v7_1029.py` como referencia. Cada slide = kicker + título + bloques (Hero, Stats, VBars, HBars, Table, MvM, Rank, Stacked, Tests, Bullets, Matchup) + panel de idea clave anclado abajo; el motor reparte el espacio.
+- Portada con Matchup grande y panel lima; conclusión con viñetas numeradas y panel lima. Nada de "slide de PowerPoint" con texto suelto y huecos.
+
 ## Formato «para quien va scrolleando» (v4, vigente desde 28 oct 2026, reemplaza a v3)
 - Pablo: "no asumas que sé; debo verlo y entender fácil y rápido con todo ahí".
 - Slide 1 = contexto completo: deporte y competencia, equipos con nombre completo y récord, día y hora CDMX, qué está en juego + gancho con la predicción en frecuencias ("gana 2 de cada 3").
