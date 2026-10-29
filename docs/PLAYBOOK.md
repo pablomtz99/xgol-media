@@ -5,7 +5,8 @@ Objetivo de la etapa 1: crecer audiencia con análisis deportivo **muy numérico
 
 ## Flujo diario
 1. Revisar partidos de hoy y mañana (NFL, NBA, futbol europeo, Liga MX; tenis en temporada; MLB a partir de marzo).
-2. Proponer a Pablo **3 a 5 opciones** de post, cada una con una imagen de muestra (portada) y un resumen de 2 líneas del dato clave. Mezclar formatos:
+2. **Fijo diario: "Resumen del día anterior"** (~9:00 CDMX). Resultados de lo que publicamos ayer vs. lo que dijo el modelo: aciertos, Brier de la noche, calibración, y los resultados clave. Se publica también cuando fallamos. No necesita elección, pero Pablo ve las imágenes antes.
+2b. Además, proponer **4 ideas de posts de deportes** (de partidos/eventos), cada una con su portada y 2 líneas del dato clave + técnica. Pablo elige 3. Mezclar formatos:
    - **Previa en números** (probabilidad del modelo, métricas, el dato clave del duelo).
    - **Prueba de hipótesis** (p-valor explicado en simple, con veredicto honesto, incluso "inconcluso").
    - **Tendencia / regresión a la media** (récord vs. calidad real).
