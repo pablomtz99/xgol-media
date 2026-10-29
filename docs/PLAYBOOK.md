@@ -30,7 +30,14 @@ Pablo quiere **más análisis estadístico, más técnico, más datos** en cada 
 - Usar momios como **"probabilidad del mercado"** (quitando el margen de la casa) y compararla con nuestro modelo: "Modelo vs. mercado". Nunca mostrar momios, líneas, nombres de casas, links ni llamados a apostar.
 - 4 ideas por día, idealmente de deportes distintos.
 
-## Explicación y narrativa (desde 28 oct 2026)
+## Formato «para quien va scrolleando» (v4, vigente desde 28 oct 2026, reemplaza a v3)
+- Pablo: "no asumas que sé; debo verlo y entender fácil y rápido con todo ahí".
+- Slide 1 = contexto completo: deporte y competencia, equipos con nombre completo y récord, día y hora CDMX, qué está en juego + gancho con la predicción en frecuencias ("gana 2 de cada 3").
+- 4 slides "DATO X DE 4": título-conclusión en lenguaje simple, UN número grande, una frase de contexto y una de interpretación. Sin siglas (nombres de ciudad/equipo), sin jerga (EPA, back-to-back, Brier → explicarlos o evitarlos).
+- Slide 6 = conclusión en 3–4 viñetas + pregunta + método en letra chica.
+- Referencia: `studio/scroll_mlb_1029.py`, `studio/scroll_rest_1029.py`.
+
+## Explicación y narrativa v3 (histórico)
 - **Sin cajas "EN SIMPLE"** (Pablo: se siente condescendiente). La explicación va integrada en la historia.
 - Estructura: portada con tesis → pasos ①②③ (cada uno prueba una parte) → veredicto → "La lógica detrás" (diagrama de flujo del cálculo).
 - El **título de cada slide es la conclusión**; la gráfica la demuestra con anotaciones directas (esperado vs. real, "así terminó", brechas marcadas).
