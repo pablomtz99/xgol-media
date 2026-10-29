@@ -1,0 +1,19 @@
+¿Remontan los Rays? 1 en 15. ⚾
+
+Simulamos 100,000 veces lo que queda de la Serie Mundial desde el 3-1:
+• MIL en 5: 53.9%
+• MIL en 6: 28.7%
+• MIL en 7: 10.9%
+• TB remonta: 6.6%
+
+Análisis de sensibilidad: aunque cada juego fuera un volado (50/50), TB remonta solo 12.5%. Ni con 60% por juego llega a 1 de 4.
+
+Prueba de hipótesis: por sus carreras, los Rays "merecían" 90.2 victorias y ganaron 98 (+7.8). Por puro azar eso pasa ~1 de cada 9 temporadas (z = 1.24, p = 0.11). Sospechoso, pero no concluyente.
+
+Y la tensión: 3 de 4 juegos se decidieron por una carrera. Sin el 10-1, las carreras van 11-10.
+
+Desde 1925 solo 6 equipos han remontado un 3-1 en Serie Mundial. ¿Los Rays serán el séptimo? 👇
+
+Método: expectativa pitagórica (exp. 1.83) + log5 + ±4 pts de localía + Monte Carlo. No incluye abridores, bullpen ni lesiones. Análisis independiente, no afiliado a MLB ni a sus equipos. No es recomendación de apuesta.
+
+#MLB #SerieMundial #WorldSeries #Brewers #Rays #Beisbol #Estadística #xGol
