@@ -1,0 +1,20 @@
+El cansancio voltea un partido 🏀 (hora CDMX)
+
+Probamos con 301 partidos de 2025-26 si jugar dos noches seguidas (back-to-back) afecta: el equipo cansado rinde 2.1 puntos menos de lo esperado (IC 95%: -3.7 a -0.4; p = 0.016). Real, pero pequeño.
+
+Hoy lo sufren SAS y LAL:
+19:00 · SAS @ UTA → SAS 73% · proyección 122-113
+19:30 · OKC @ DAL → OKC 75% · proyección 116-106
+20:30 · LAL @ LAC → LAC 54% · proyección 115-116
+
+Sin el ajuste, LAL era favorito (52%). Con el cansancio, se voltea. Y LAL juega sin Dončić, algo que el modelo no ve.
+
+Cada partido: 100,000 simulaciones → margen y puntos totales con intervalo del 80%, probabilidad de final cerrado (≤5) y de paliza (≥15).
+
+Modelo NBA v2: ataque y defensa ajustados por rival (regresión ridge) + localía + back-to-back. Prueba fuera de muestra 2025-26: 69% de aciertos, Brier 0.205 vs. 0.248.
+
+¿Le crees al 54% de LAC o la baja de Dončić lo cambia todo? 👇
+
+Datos: BALLDONTLIE y reportes de lesiones públicos al 28 oct. Análisis independiente, no afiliado a la NBA. No es recomendación de apuesta.
+
+#NBA #NBAenEspañol #Lakers #Clippers #Spurs #Thunder #Estadística #xGol
