@@ -58,7 +58,7 @@ def steps_tag(d, n):
 
 # --------------------------------------------------------------------------- slides
 def s1():
-    im, d = base(); kicker(d, 110, "MLB · Serie Mundial 2026")
+    im, d = base(); kicker(d, 110, "MLB · Serie Mundial · campeón el 28 oct")
     y = headline(d, "De 9% a campeón", size=104)
     # trayectoria del mercado
     xs = [("Agosto", 9), ("Inicio playoffs", 17), ("Semifinal", 24), ("Antes de la Serie", 62), ("Campeón", 100)]
