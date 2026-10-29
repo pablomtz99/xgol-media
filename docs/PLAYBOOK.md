@@ -32,6 +32,11 @@ Pablo quiere **más análisis estadístico, más técnico, más datos** en cada 
 - Mezclar previas con **rompemitos** (ej. "las rachas de pocos puntos no predicen nada: 392 casos").
 - Resultados guardados en `xgol-data/lab/`. Hallazgos ya probados: rachas de unders NFL no persisten (p=0.42); jueves y frío no cambian totales vs. mercado; NBA: arranque predice ~27% del margen futuro (r=0.40); ajuste por rival mejora (r 0.42→0.51); back-to-back −2.1 al margen (p=0.011) pero no baja totales (p=0.36); +1 día de descanso no importa (p=0.74); nuestras proyecciones de totales sí discriminan (r=0.31; top 20% 239 vs. bottom 222).
 
+## Matchup obligatorio (desde 29 oct 2026, Pablo)
+- Cada previa lleva un slide de **matchup**: cómo ataca uno vs. cómo defiende el otro. NBA: cuatro factores (tiro efectivo, pérdidas, rebote ofensivo/defensivo, tiros libres), % de tiros de 3, ritmo; minutos/rol de jugadores clave. NFL: EPA por pase/carrera vs. defensa correspondiente, presión, ritmo. Futbol: estilo (posesión, presión, transiciones), xG a favor/en contra, balón parado.
+- Revisar variables de contexto: altura (Denver, Utah, Ciudad de México, Toluca, La Paz…), viajes/zona horaria, descanso, clima, árbitro cuando haya datos.
+- Avisar del tamaño de muestra (p. ej. "4 partidos") cuando las métricas sean de inicio de temporada.
+
 ## Ángulos (desde 28 oct 2026, Pablo)
 - No todo es "quién gana". Rotar ángulos: cómo será el partido (ritmo, muchos/pocos puntos, por aire/por tierra), jugador vs. su exequipo, revanchas e historias, duelos individuales, rachas que hay que poner a prueba, contradicciones entre datos (y probarlas), riesgos para el favorito.
 - Investigar a fondo: notas, estadísticas avanzadas públicas (Basketball-Reference, nflverse, etc.), lesiones, contexto de plantillas (cambios, traspasos).
