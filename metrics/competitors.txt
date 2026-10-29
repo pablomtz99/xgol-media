@@ -1,0 +1,17 @@
+# Cuentas comparables (una por línea). Solo funcionan cuentas de empresa/creador.
+# Datos / analítica (referencia de formato)
+statmuse
+squawka
+theanalyst
+statsbomb
+whoscored
+sofascore
+fotmob
+misterchip
+espnstatsinfo
+# Español / México (referencia de audiencia)
+espndeportes
+mediotiempo
+foxsportsmx
+tudnmex
+futbolmx
