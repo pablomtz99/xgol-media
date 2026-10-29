@@ -1,0 +1,20 @@
+¿Remontan los Rays? Nuestro modelo dice: 1 en 15. ⚾
+
+Milwaukee va 3-1 en la Serie Mundial y hoy se juega el Juego 5 en Tampa Bay. Para ganar, los Rays necesitan tres victorias seguidas, dos de ellas en Milwaukee:
+
+• J5 en Tampa Bay: 46%
+• J6 en Milwaukee: 38%
+• J7 en Milwaukee: 38%
+→ las tres juntas: 6.7%
+
+Dos datos que cuentan historias opuestas:
+1) Los Rays ganaron 98 juegos, pero por sus carreras "merecían" ~90. Ganaron 8 de más.
+2) La serie es más pareja que el 3-1: tres de cuatro juegos se decidieron por una carrera.
+
+Desde 1925, solo 6 equipos han remontado un 3-1 en Serie Mundial. El último: los Cubs de 2016.
+
+¿Los Rays serán el séptimo? Te leo 👇
+
+Método: expectativa pitagórica + log5 + ventaja de local. No incluye abridores ni lesiones. Análisis independiente, no afiliado a MLB ni a sus equipos. No es recomendación de apuesta.
+
+#MLB #SerieMundial #WorldSeries #Brewers #Rays #Beisbol #DatosDeportivos #xGol
