@@ -92,7 +92,7 @@ Pablo quiere **más análisis estadístico, más técnico, más datos** en cada 
 - Código y datos en el repo privado `xgol-data` (`models/`). Revisar reporte de lesiones antes de publicar (el modelo no las ve).
 
 ## TikTok
-- Pablo sube manualmente los mismos JPG como carrusel de fotos. Evitar cualquier lenguaje de apuestas.
+- Pablo sube manualmente los mismos slides como carrusel de FOTOS (no video; decisión del 28 oct). Mandarle las fotos de cada post en orden con su caption y horario. Evitar cualquier lenguaje de apuestas.
 
 ## Modelo v0 (NFL)
 - Margen esperado = 0.5 × (EPA neta/jugada local − EPA neta/jugada visitante) × 61.6 jugadas + 1.5 pts de localía.
