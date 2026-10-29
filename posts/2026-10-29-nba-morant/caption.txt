@@ -7,6 +7,8 @@ El 29 de junio, Memphis cambió a Ja Morant por Jerami Grant y Kris Murray. Hoy 
 • Memphis va 4-0 sin él (Ty Jerome 29.8 pts, el novato Cam Boozer 15.3 y 10.5 rebotes)… pero contra rivales débiles.
 • Ritmo lento de los dos, pero puntos en el promedio: unos 230.
 
+El matchup: Portland tiene el mejor tiro de la liga (60.7% efectivo) y casi la mitad de sus tiros son de 3; Memphis permite solo 50.5%. La carta de Memphis: el rebote ofensivo (32.4%), contra un Portland que deja escapar 30 de cada 100.
+
 Lo que probamos (NBA 2025-26): ✓ un buen arranque predice algo, pero de cada 10 puntos de ventaja temprana solo se mantienen unos 3 · ✓ ajustar por rivales ayuda a predecir · ✗ un día extra de descanso no da ventaja (850 partidos).
 
 Nuestro modelo: Portland gana 2 de cada 3 (67%). ¿Quién ganó el cambio? 👇

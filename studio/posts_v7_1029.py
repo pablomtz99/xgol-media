@@ -141,7 +141,7 @@ def F_():
     return [
         slide(1, T, "Basquetbol · NBA · Jueves 29 de octubre", "Kings vs. Pelicans: el duelo de los que no han ganado",
               [Matchup("Kings", f['rec_a'], "Pelicans", f['rec_h'], sep="visitan a · jueves 29 oct · 18:00 hora CDMX")],
-              takeaway="Uno de los dos se quita el cero. ¿Quién? 4 datos.", style="cover"),
+              takeaway="Uno de los dos se quita el cero. ¿Quién? 5 datos.", style="cover"),
         slide(2, T, "La paradoja de Sacramento", "Sacramento tiene estrellas… y una de las peores defensas",
               [Stats([("29", "puntos por partido de Zach LaVine", ACC), ("17.3", "rebotes de Sabonis, líder de la liga", ACC)]),
                Stats([(f"{f['sac_pa']:.0f}", "puntos que recibe Sacramento por partido", NEG)])],
