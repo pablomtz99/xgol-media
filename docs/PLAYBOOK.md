@@ -25,6 +25,12 @@ Pablo quiere **más análisis estadístico, más técnico, más datos** en cada 
 7. Narrativa persuasiva y creativa: un gancho numérico en la portada ("1 en 15"), tensión entre datos que se contradicen, pregunta final en el caption.
 8. Decir n y fuente de cada número. Si un dato no se puede verificar, no va.
 
+## Ángulos (desde 28 oct 2026, Pablo)
+- No todo es "quién gana". Rotar ángulos: cómo será el partido (ritmo, muchos/pocos puntos, por aire/por tierra), jugador vs. su exequipo, revanchas e historias, duelos individuales, rachas que hay que poner a prueba, contradicciones entre datos (y probarlas), riesgos para el favorito.
+- Investigar a fondo: notas, estadísticas avanzadas públicas (Basketball-Reference, nflverse, etc.), lesiones, contexto de plantillas (cambios, traspasos).
+- Ser crítico: si una "tendencia" no es significativa, decirlo; si hay un riesgo, mostrarlo.
+- **Tono sobre nuestro modelo: siempre positivo o neutral.** No publicar que "el mercado acierta más que nosotros" ni similares. Las diferencias con el mercado se presentan como puntos de vista distintos con sus razones.
+
 ## Ángulo y venta (desde 28 oct 2026)
 - Cada idea necesita un **ángulo único** y una historia: storylines del día (exjugadores, rachas, invictos, sequías), estadísticas públicas en línea y contexto.
 - Usar momios como **"probabilidad del mercado"** (quitando el margen de la casa) y compararla con nuestro modelo: "Modelo vs. mercado". Nunca mostrar momios, líneas, nombres de casas, links ni llamados a apostar.
