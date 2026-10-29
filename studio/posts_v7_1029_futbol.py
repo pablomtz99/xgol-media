@@ -11,7 +11,7 @@ def G():
     return [
         slide(1, T, "Futbol · Serie A (Italia) · Jueves 29 de octubre", "Fiorentina vs. Atalanta: la defensa más goleada de Italia contra el equipo de los partidos locos",
               [Matchup("Fiorentina", "18°", "Atalanta", "11°", sep="local · jueves 29 oct · 13:45 hora CDMX · visita")],
-              takeaway="Sus partidos promedian 3.5 goles. ¿Lluvia de goles en Florencia? 4 datos.", style="cover", title_size=80),
+              takeaway="Los partidos de los dos promedian 3.5 goles esta temporada. ¿Lluvia de goles en Florencia? 4 datos.", style="cover", title_size=80),
         slide(2, T, "El cambio de estilo de Atalanta", "Atalanta cambió de estilo… y sus partidos se volvieron locos",
               [Hero("3.6", "goles por partido en los juegos de Atalanta esta temporada.", ACC),
                Stats([("2.3", "goles por partido en sus juegos de 2025-26", GHOST), ("15", "goles recibidos en 8 partidos", NEG)])],

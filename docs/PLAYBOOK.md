@@ -86,6 +86,11 @@ Pablo quiere **más análisis estadístico, más técnico, más datos** en cada 
 
 **Limitación actual:** la sesión de Claude solo tiene salida a GitHub y registros de paquetes. Las APIs que no estén en GitHub deben consultarse desde GitHub Actions (pendiente de montar). Mientras tanto, las opciones diarias se basan sobre todo en NFL.
 
+## Aprendizajes
+- 29 oct: no publicar resultados ese día (Pablo). Las dos fallas del 28 (OKC sin 4 titulares, LAL sin Dončić) fueron por bajas → pendiente agregar ajuste por lesiones.
+- 29 oct: recalibración NBA con los 65 partidos de 2026-27: partir de 90% del nivel 2025-26 (antes 60%) y ridge λ=16 (antes 8). Brier 0.232 → 0.220; P(mejora) = 97.5% por bootstrap. Revisar cada semana.
+- Revisar fraseos contra los datos antes de publicar: no afirmar "suerte" sin prueba significativa, no contradecir un slide con otro (p. ej. "peor equipo" vs. "no tan malo"), no atribuir motivos al mercado como hechos ("una posible razón").
+
 ## Modelo NBA v1
 - Ataque y defensa por equipo con regresión ridge sobre cada marcador; prior = 60% del nivel de la temporada pasada; σ ≈ 14.7.
 - Backtest 2025-26 (1,090 partidos, fuera de muestra): 69% aciertos, Brier 0.205 vs 0.248; calibrado.

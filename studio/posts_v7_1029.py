@@ -5,7 +5,7 @@ from layout_v7 import *
 
 N = json.load(open(os.environ["NBA_JSON"]))
 OUT = os.environ.get("XGOL_OUT", "/tmp/xgol-out/v7")
-NBA_M = ("Método: nivel de cada equipo ajustado por la calidad de sus rivales (marcadores 2025-26 y 2026-27), localía y cansancio "
+NBA_M = ("Método: nivel de cada equipo ajustado por la calidad de sus rivales (parte de 90% del nivel 2025-26, recalibrado el 29 oct), localía y cansancio "
          "(−2.1 pts por jugar dos noches seguidas). Probado en 1,090 partidos: acertó 69%. Pruebas con la temporada 2025-26. Datos: BALLDONTLIE, "
          "Basketball-Reference, ESPN; mercado de predicción público. Análisis independiente, no afiliado a la NBA. No es recomendación de apuesta.")
 SUB_NBA = "Hipótesis puestas a prueba con la temporada NBA 2025-26. Si «p» es menor a 0.05, casi seguro no es casualidad."
@@ -25,7 +25,7 @@ def A():
               [Text("Con las carreras que anotas y las que recibes se calcula cuántos partidos «deberías» ganar:", 30, MUTED),
                Table(("Debía ganar", "Ganó"), [("Milwaukee", "102.5", "103"), ("Tampa Bay", "90.2", "98")], colors=[GHOST, ACC]),
                Stats([("+0.5", "Milwaukee: justo lo esperado", ACC), ("+7.8", "Tampa Bay: victorias de más", NEG)])],
-              takeaway="Milwaukee ganó justo lo esperado (103 vs. 102.5). Tampa Bay ganó 8 de más: suele ser suerte en juegos cerrados.", tag="DATO 2 DE 4"),
+              takeaway="Milwaukee ganó justo lo esperado (103 vs. 102.5). Tampa Bay ganó 8 de más, algo que suele venir de ganar juegos cerrados (aunque con una temporada no se puede probar que fue suerte).", tag="DATO 2 DE 4"),
         slide(4, T, "Antes de empezar la final", "Ya eran favoritos antes del primer juego",
               [Hero("7 de 10", "veces ganaba Milwaukee la Serie, según nuestro modelo (68%). El mercado le daba 62%."),
                Stats([("68%", "nuestro modelo", ACC), ("62%", "el mercado", GHOST)])],
@@ -35,7 +35,7 @@ def A():
                Stats([("3 de 5", "juegos se definieron por una sola carrera", AMBER), ("2 de 3", "de esos los ganó Milwaukee", ACC)])],
               takeaway="Carreras de Milwaukee en cada juego. Ganó el 1, 2, 3 y 5; perdió el 4 por una carrera en 12 entradas.", tag="DATO 4 DE 4"),
         slide(6, T, "Conclusión", "Campeón merecido: ganó el mejor equipo del año",
-              [Bullets(["El mejor récord de MLB: 103 victorias.", "Su récord era real, no suerte.", "Era favorito: 7 de cada 10.", "Ganó los juegos de una carrera."])],
+              [Bullets(["El mejor récord de MLB: 103 victorias.", "Su récord iba de acuerdo con sus carreras.", "Era favorito: 7 de cada 10.", "Ganó los juegos de una carrera."])],
               takeaway="Y pensar que en agosto el mercado solo le daba 9%. ¿Lo viste venir?", style="end",
               method="Método: victorias esperadas con la fórmula pitagórica (carreras anotadas y recibidas); simulación de la serie con la fuerza de cada equipo y la ventaja de local. Datos públicos 2026. Análisis independiente, no afiliado a MLB. No es recomendación de apuesta."),
     ]
@@ -68,7 +68,7 @@ def B():
                       (False, "«Con frío se anota menos»", "670 partidos a 7 °C o menos: igual a lo esperado.", "p = 0.62"),
                       (True, "«Green Bay no sabe correr»", "137 acarreos en 2026: es real, no mala suerte.", "p = 0.006")])]),
         slide(7, T, "Conclusión", "Olvida la racha: el partido se decide corriendo",
-              [Bullets(["Las rachas de pocos puntos no predicen nada: 392 casos.", "Lo real: el peor ataque por tierra contra una defensa que deja correr.", "Nuestro modelo: Green Bay gana 56 de cada 100."])],
+              [Bullets(["Las rachas de pocos puntos no predicen nada: 392 casos.", "Lo real: el peor ataque por tierra; enfrente, una defensa que hasta ahora deja correr.", "Nuestro modelo: Green Bay gana 56 de cada 100."])],
               takeaway="¿Sabías que las rachas no significan nada? Te leemos.", style="end",
               method="Método: partidos de temporada regular NFL 2010–2025 comparando puntos reales con la expectativa del mercado; prueba t del ataque terrestre de Green Bay (2026); probabilidad con puntos esperados por jugada (EPA) + localía. Datos: nflverse (CC-BY 4.0). Análisis independiente, no afiliado a la NFL. No es recomendación de apuesta."),
     ]
@@ -91,7 +91,7 @@ def C():
         slide(4, T, "¿Un 4-0 dice algo?", "Un arranque fuerte dice algo… pero poco",
               [Hero("3 de 10", "puntos de ventaja de los primeros partidos se mantienen el resto de la temporada (30 equipos, 2025-26).", AMBER),
                Rank([("Portland", c["rank_h"], ACC), ("Memphis", c["rank_a"], NEG)])],
-              takeaway="Memphis gana por 9.8 con Ty Jerome (29.8 pts) y el novato Cam Boozer, pero contra rivales débiles. Ajustado, está a media tabla.", tag="DATO 3 DE 4"),
+              takeaway="Memphis gana por 9.8 con Ty Jerome (29.8 pts) y el novato Cam Boozer, pero contra rivales débiles. Ajustado por rivales, está en la mitad baja de la liga.", tag="DATO 3 DE 4"),
         slide(5, T, "¿Cómo será el partido?", "Ritmo lento, pero puntos normales",
               [Stats([("22°", "Memphis en ritmo de juego (de 30)", GHOST), ("20°", "Portland en ritmo", GHOST), (f"{c['total']:.0f}", f"puntos proyectados (liga: {N['league_total']:.0f})", ACC)]),
                MvM("Portland gana", c["p_home"] / 100, c["mkt"] / 100)],
@@ -102,7 +102,7 @@ def C():
                       (True, "«Ajustar por la calidad de los rivales ayuda»", "Con el ajuste, la relación con el resto de la temporada sube de 0.42 a 0.51.", "correlación 0.51 · p = 0.004"),
                       (False, "«Llegar con más días de descanso da ventaja»", "Un día extra no cambia nada. Solo pesa jugar dos noches seguidas.", "850 partidos · p = 0.74")])]),
         slide(7, T, "Conclusión", "El 4-0 de Memphis vale menos de lo que parece",
-              [Bullets(["Morant: menos carga y más eficiencia en un Portland que gana.", "Los arranques fuertes engañan: solo 3 de cada 10 puntos se mantienen.", f"Portland gana {c['freq']} veces; partido pausado, unos {c['total']:.0f} puntos."])],
+              [Bullets(["Morant: menos carga y más eficiencia en un Portland que gana.", "Los arranques fuertes exageran: solo 3 de cada 10 puntos de ventaja se mantienen.", f"Portland gana {c['freq']} veces; partido pausado, unos {c['total']:.0f} puntos."])],
               takeaway="¿Quién ganó el cambio? Te leemos.", style="end", method=NBA_M),
     ]
 
@@ -122,16 +122,16 @@ def E():
         slide(4, T, "El estilo de Cleveland", "Cleveland anota… y también recibe",
               [VBars([(l, v, None) for l, v in e["cle_totals"]], 270)],
               takeaway=f"Puntos totales en cada partido de Cleveland. Anota {e['cle_pf']:.0f} y recibe {e['cle_pa']:.0f}: sus partidos casi nunca son lentos.", tag="DATO 3 DE 4"),
-        slide(5, T, "La predicción", "Atlanta, favorito en un partido de muchos puntos",
+        slide(5, T, "La predicción", "Atlanta, ligero favorito en un partido de muchos puntos",
               [MvM("Atlanta gana", e["p_home"] / 100, e["mkt"] / 100), Rank([("Atlanta", e["rank_h"], ACC), ("Cleveland", e["rank_a"], GHOST)])],
-              takeaway="Nosotros vemos más fuerte a Atlanta por cómo juega esta temporada; el mercado pesa más al Cleveland del año pasado.", tag="DATO 4 DE 4"),
+              takeaway="Nosotros y el mercado lo vemos casi parejo; Atlanta tiene una ligera ventaja por jugar en casa y por cómo juega esta temporada.", tag="DATO 4 DE 4"),
         slide(6, T, "Lo que probamos", "Lo que se sostiene y lo que es mito",
               [Text(SUB_NBA, 27, MUTED),
                Tests([(True, "«Si proyectamos muchos puntos, hay muchos puntos»", "Los partidos que proyectamos más altos promediaron 239; los más bajos, 222.", "379 partidos · correlación 0.31 · p < 0.001"),
                       (False, "«Si los dos jugaron anoche, se anota menos»", "Unos 2 puntos menos, pero puede ser casualidad.", "70 partidos · p = 0.36"),
                       (True, "«Jugar dos noches seguidas afecta quién gana»", "El equipo cansado rinde 2.1 puntos menos. Hoy les pasa a los dos: se compensa.", "1,237 partidos · p = 0.011")])]),
         slide(7, T, "Conclusión", "Prepárate para muchos puntos en Atlanta",
-              [Bullets([f"Unos {e['total']:.0f} puntos proyectados, lo más alto del jueves.", "Atlanta corre y tira de tres; Jalen Johnson lo mueve todo.", f"Atlanta gana {e['freq']} veces para nosotros."])],
+              [Bullets([f"Unos {e['total']:.0f} puntos proyectados, lo más alto del jueves.", "Atlanta corre y tira de tres; Jalen Johnson lo mueve todo.", f"Ganador casi parejo: Atlanta {e['p_home']}% para nosotros."])],
               takeaway="¿Partido de 240 puntos? Te leemos.", style="end", method=NBA_M),
     ]
 
@@ -160,10 +160,10 @@ def F_():
         slide(6, T, "Lo que probamos", "Lo que se sostiene y lo que es mito",
               [Text(SUB_NBA, 27, MUTED),
                Tests([(True, "«Las palizas del arranque exageran»", "De cada 10 puntos de diferencia temprana se mantienen unos 3: el −17.8 de Sacramento vale como un −5.", "30 equipos · p = 0.03"),
-                      (True, "«Un mal arranque no condena la temporada»", "Los que arrancaron 1-3 o peor ganaron 42% del resto (los buenos arranques, 55%).", "11 y 9 equipos · indicio"),
+                      (True, "«Un mal arranque dice algo, pero no todo»", "Los que arrancaron 1-3 o peor ganaron 42% del resto; los de buen arranque, 55%. La diferencia existe, pero no es enorme.", "11 y 9 equipos · indicio"),
                       (True, "«Jugar dos noches seguidas cuesta»", "Unos 2 puntos menos. Hoy le toca a Nueva Orleans.", "1,237 partidos · p = 0.011")])]),
-        slide(7, T, "Conclusión", "Ninguno de los dos es tan malo como su 0-4",
-              [Bullets(["Sacramento: grandes números individuales, pero la defensa no da.", "Las palizas del arranque exageran.", f"Nueva Orleans gana {f['freq']} veces para nosotros."])],
+        slide(7, T, "Conclusión", "Las palizas exageran, pero Sacramento sigue abajo",
+              [Bullets(["Sacramento: grandes números individuales, pero recibe 126 puntos por partido.", "Las palizas del arranque exageran, pero Sacramento sigue siendo el peor de nuestro ranking.", f"Nueva Orleans gana {f['freq']} veces para nosotros."])],
               takeaway="¿Quién se quita el cero? Te leemos.", style="end", method=NBA_M),
     ]
 

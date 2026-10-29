@@ -9,7 +9,7 @@ El 29 de junio, Memphis cambió a Ja Morant por Jerami Grant y Kris Murray. Hoy 
 
 Lo que probamos (NBA 2025-26): ✓ un buen arranque predice algo, pero de cada 10 puntos de ventaja temprana solo se mantienen unos 3 · ✓ ajustar por rivales ayuda a predecir · ✗ un día extra de descanso no da ventaja (850 partidos).
 
-Nuestro modelo: Portland gana 2 de cada 3. ¿Quién ganó el cambio? 👇
+Nuestro modelo: Portland gana 2 de cada 3 (67%). ¿Quién ganó el cambio? 👇
 
 Datos: BALLDONTLIE, Basketball-Reference, ESPN. Análisis independiente, no afiliado a la NBA. No es recomendación de apuesta.
 #NBA #NBAenEspañol #JaMorant #Grizzlies #TrailBlazers #xGol
