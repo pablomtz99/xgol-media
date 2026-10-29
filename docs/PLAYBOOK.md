@@ -30,6 +30,12 @@ Pablo quiere **más análisis estadístico, más técnico, más datos** en cada 
 - Usar momios como **"probabilidad del mercado"** (quitando el margen de la casa) y compararla con nuestro modelo: "Modelo vs. mercado". Nunca mostrar momios, líneas, nombres de casas, links ni llamados a apostar.
 - 4 ideas por día, idealmente de deportes distintos.
 
+## Explicación (desde 28 oct 2026)
+- Cada slide con números lleva una caja **"EN SIMPLE"** abajo: la conclusión en palabras de la calle, sin jerga. El penúltimo slide es **"CONCLUSIÓN / Qué esperar"**.
+- Explicar cada término la primera vez (p-valor = "qué tan probable es por pura casualidad"; EPA = "puntos que suma cada jugada"; Brier = "error promedio, menos es mejor").
+- Usar frecuencias ("2 de cada 3 veces") antes que porcentajes abstractos. Llevar al lector de la mano: historia → dato → qué significa → qué esperar.
+- Carrusel de 6 slides; último = método como glosario + aviso legal pequeño. Generar también video vertical 1080×1920 para TikTok.
+
 ## Reglas legales y de plataforma (no negociables)
 - **Cero fotos de jugadores** (LFDA art. 87, derecho a la propia imagen) y **cero logos/escudos** (marcas). Equipos solo por nombre o abreviatura en texto.
 - **Nada de lenguaje de apuestas**: no "pick", "momio", "cuota", "parlay", "apuesta", "lock", "valor". No mostrar líneas de casas de apuestas. TikTok trata pronósticos y análisis de momios como contenido de apuestas.
