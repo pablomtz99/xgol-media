@@ -1,0 +1,61 @@
+{
+ "fetched_at": "2026-10-29T03:34:27.759378Z",
+ "accounts": [
+  {
+   "username": "statmuse",
+   "ok": false
+  },
+  {
+   "username": "squawka",
+   "ok": false
+  },
+  {
+   "username": "theanalyst",
+   "ok": false
+  },
+  {
+   "username": "statsbomb",
+   "ok": false
+  },
+  {
+   "username": "whoscored",
+   "ok": false
+  },
+  {
+   "username": "sofascore",
+   "ok": false
+  },
+  {
+   "username": "fotmob",
+   "ok": false
+  },
+  {
+   "username": "misterchip",
+   "ok": false
+  },
+  {
+   "username": "espnstatsinfo",
+   "ok": false
+  },
+  {
+   "username": "espndeportes",
+   "ok": false
+  },
+  {
+   "username": "mediotiempo",
+   "ok": false
+  },
+  {
+   "username": "foxsportsmx",
+   "ok": false
+  },
+  {
+   "username": "tudnmex",
+   "ok": false
+  },
+  {
+   "username": "futbolmx",
+   "ok": false
+  }
+ ]
+}
