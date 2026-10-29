@@ -25,6 +25,13 @@ Pablo quiere **más análisis estadístico, más técnico, más datos** en cada 
 7. Narrativa persuasiva y creativa: un gancho numérico en la portada ("1 en 15"), tensión entre datos que se contradicen, pregunta final en el caption.
 8. Decir n y fuente de cada número. Si un dato no se puede verificar, no va.
 
+## Laboratorio: pruebas de hipótesis (obligatorio desde 28 oct 2026)
+- Por cada post, plantear varias hipótesis (incluidas las que contradicen nuestro ángulo) y probarlas con datos históricos (NFL 2010–2025 en games.csv de nflverse; NBA 2025-26 en xgol-data). No casarse con ninguna.
+- Corregir por pruebas múltiples (Benjamini-Hochberg); si algo no sobrevive, llamarlo "indicio", no "probado".
+- Slide fijo **"Lo que probamos"**: 3–5 hipótesis con ✓ (se sostiene) / ✗ (mito), una línea en palabras + muestra, y el número técnico en chico (p, correlación).
+- Mezclar previas con **rompemitos** (ej. "las rachas de pocos puntos no predicen nada: 392 casos").
+- Resultados guardados en `xgol-data/lab/`. Hallazgos ya probados: rachas de unders NFL no persisten (p=0.42); jueves y frío no cambian totales vs. mercado; NBA: arranque predice ~27% del margen futuro (r=0.40); ajuste por rival mejora (r 0.42→0.51); back-to-back −2.1 al margen (p=0.011) pero no baja totales (p=0.36); +1 día de descanso no importa (p=0.74); nuestras proyecciones de totales sí discriminan (r=0.31; top 20% 239 vs. bottom 222).
+
 ## Ángulos (desde 28 oct 2026, Pablo)
 - No todo es "quién gana". Rotar ángulos: cómo será el partido (ritmo, muchos/pocos puntos, por aire/por tierra), jugador vs. su exequipo, revanchas e historias, duelos individuales, rachas que hay que poner a prueba, contradicciones entre datos (y probarlas), riesgos para el favorito.
 - Investigar a fondo: notas, estadísticas avanzadas públicas (Basketball-Reference, nflverse, etc.), lesiones, contexto de plantillas (cambios, traspasos).
