@@ -30,8 +30,13 @@ Pablo quiere **más análisis estadístico, más técnico, más datos** en cada 
 - Usar momios como **"probabilidad del mercado"** (quitando el margen de la casa) y compararla con nuestro modelo: "Modelo vs. mercado". Nunca mostrar momios, líneas, nombres de casas, links ni llamados a apostar.
 - 4 ideas por día, idealmente de deportes distintos.
 
-## Explicación (desde 28 oct 2026)
-- Cada slide con números lleva una caja **"EN SIMPLE"** abajo: la conclusión en palabras de la calle, sin jerga. El penúltimo slide es **"CONCLUSIÓN / Qué esperar"**.
+## Explicación y narrativa (desde 28 oct 2026)
+- **Sin cajas "EN SIMPLE"** (Pablo: se siente condescendiente). La explicación va integrada en la historia.
+- Estructura: portada con tesis → pasos ①②③ (cada uno prueba una parte) → veredicto → "La lógica detrás" (diagrama de flujo del cálculo).
+- El **título de cada slide es la conclusión**; la gráfica la demuestra con anotaciones directas (esperado vs. real, "así terminó", brechas marcadas).
+- Bloque discreto **"CÓMO SE CALCULA"** con la lógica usando los números del caso, sin fórmulas.
+- **Hilo conductor** al pie de cada slide: una frase que conecta con el siguiente y termina en "→".
+- Referencia: `studio/story_mlb_1029.py`.
 - Explicar cada término la primera vez (p-valor = "qué tan probable es por pura casualidad"; EPA = "puntos que suma cada jugada"; Brier = "error promedio, menos es mejor").
 - Usar frecuencias ("2 de cada 3 veces") antes que porcentajes abstractos. Llevar al lector de la mano: historia → dato → qué significa → qué esperar.
 - Carrusel de 6 slides; último = método como glosario + aviso legal pequeño. Generar también video vertical 1080×1920 para TikTok.
@@ -71,7 +76,7 @@ Pablo quiere **más análisis estadístico, más técnico, más datos** en cada 
 - El factor 0.5 es regresión a la media por muestra corta; revisarlo conforme avance la temporada.
 
 ## Estilo visual (provisional)
-- Lienzo 1080×1350 (4:5). Fondo `#0A0E13`, superficie `#141B24`, línea `#232C38`, texto `#F2F4F7`, secundario `#8A94A3`, acento lima `#C6FF3D`, alerta coral `#FF6B5B`.
+- Lienzo 1080×1350 (4:5). Fondo `#0A0E13`, superficie `#141B24`, línea `#232C38`, texto `#F2F4F7`, secundario `#B3BDC9` (antes #8A94A3; subido por contraste), barras inactivas/divisores `#3B4757`, tarjetas `#1A2330`, contorno «esperado» `#D5DCE4`, acento lima `#C6FF3D`, alerta coral `#FF6B5B`.
 - Tipografía Inter / Inter Display (Black para títulos, Bold para cifras). Kicker en mayúsculas lima.
 - Footer: wordmark "xGol" (x en lima) + número de slide.
 - Código de referencia en `studio/` (helpers en `render_car_gb.py`).

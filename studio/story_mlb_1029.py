@@ -4,6 +4,11 @@ import os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from render_car_gb import font, base, footer, para, wrap, kicker, BG, SURF, LINE, TXT, MUTED, ACC, NEG, W, H, M
 
+# Paleta de alto contraste (v3): grises más claros y superficies más separadas del fondo
+MUTED = "#B3BDC9"   # texto secundario (antes #8A94A3)
+LINE = "#3B4757"    # barras inactivas y divisores (antes #232C38)
+SURF = "#1A2330"    # tarjetas (antes #141B24)
+GHOST = "#D5DCE4"   # contorno de «esperado»
 OUT = os.environ.get("XGOL_OUT", "/tmp/xgol-out/story_mlb")
 T = 6
 F = font
@@ -87,7 +92,7 @@ def s2():
         d.text((M, y + 30), team, font=F("InterDisplay-Black.otf", 52), fill=TXT)
         # esperado
         d.text((bx0, y - 2), f"Esperadas por sus carreras: {exp:.1f}".replace(".0:", ":"), font=F("Inter-Medium.otf", 23), fill=MUTED)
-        d.rounded_rectangle((bx0, y + 30, sc(exp), y + 66), radius=10, outline=MUTED, width=3)
+        d.rounded_rectangle((bx0, y + 30, sc(exp), y + 66), radius=10, outline=GHOST, width=3)
         # real
         d.rounded_rectangle((bx0, y + 78, sc(real), y + 114), radius=10, fill=col)
         d.text((bx0 + 14, y + 80), f"Reales: {real}", font=F("Inter-Bold.otf", 25), fill=BG)
@@ -122,7 +127,7 @@ def s3():
             d.text((x + 24, yy), lab, font=F("Inter-SemiBold.otf", 25), fill=ACC if hit else TXT)
             bw = colw - 220
             d.rounded_rectangle((x + 100, yy + 6, x + 100 + bw, yy + 30), radius=8, fill=LINE)
-            d.rounded_rectangle((x + 100, yy + 6, x + 100 + int(bw * p / .22), yy + 30), radius=8, fill=ACC if hit else (MUTED if side else TXT))
+            d.rounded_rectangle((x + 100, yy + 6, x + 100 + int(bw * p / .22), yy + 30), radius=8, fill=ACC if hit else ("#7F8C9C" if side else TXT))
             d.text((x + colw - 100, yy), f"{100*p:.0f}%", font=F("Inter-Bold.otf", 25), fill=TXT)
             if hit:
                 d.text((x + 100, yy + 34), "← así terminó (4-1)", font=F("Inter-Bold.otf", 21), fill=ACC)
