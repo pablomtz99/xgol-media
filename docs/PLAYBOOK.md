@@ -78,3 +78,10 @@ Pablo quiere **más análisis estadístico, más técnico, más datos** en cada 
 - Secretos: `IG_USER_ID` (17841451380567277) e `IG_ACCESS_TOKEN` (token de la Página XGol, no caduca).
 - Horarios sugeridos: previas ~6 h antes del partido; posts generales entre 12:00 y 19:00 CDMX; separar posts del mismo día al menos 2 h.
 - La foto de perfil no se puede cambiar por API.
+
+## Medición y crecimiento
+- `scripts/metrics.py` + `.github/workflows/metrics.yml` (diario 07:20 CDMX): insights por post → `metrics/posts.json`; cuentas comparables (business_discovery, lista en `metrics/competitors.txt`) → `metrics/market.json`; fallas → `metrics/_errors.json`.
+- Requiere permisos `instagram_manage_insights` y `pages_read_engagement` en el token.
+- Métrica principal: interacciones / alcance (tasa de interacción) y guardados+compartidos / alcance. Secundarias: vistas, visitas al perfil, follows por post.
+- Cada post se etiqueta (deporte, formato, ángulo, tipo de gancho, hora, nº de slides). No sacar conclusiones con menos de ~8 posts por variante; usar comparaciones con intervalos (no "ganó el que tuvo más likes").
+- Ajustar tono según datos, sin perder el rigor: el contenido es analítico primero.
