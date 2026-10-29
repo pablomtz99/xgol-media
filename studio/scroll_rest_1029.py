@@ -236,9 +236,9 @@ def D():
     footer(d, 3, T); s.append(im)
 
     im, d = base(); kicker(d, "Cómo llega River"); tag(d, 3)
-    y = head(d, "River llega irregular y con urgencia")
+    y = head(d, "River llega irregular, urgido… y con revancha")
     y = big(d, y + 30, "5 de 14", "partidos perdió River en el Clausura (7 ganados, solo 2 empates).", NEG, 160)
-    say(d, y + 30, "Es 7° en la tabla anual, 3 puntos debajo del último lugar que da boleto a la Copa Libertadores. Necesita ganar.", 32, TXT)
+    say(d, y + 30, "Perdió el último Superclásico 1-0 (Apertura 2026) y es 7° en la tabla anual, 3 puntos debajo del último boleto a la Copa Libertadores. Necesita ganar.", 32, TXT)
     footer(d, 4, T); s.append(im)
 
     im, d = base(); kicker(d, "Lo que dice el mercado"); tag(d, 4)
