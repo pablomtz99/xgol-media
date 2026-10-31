@@ -200,7 +200,7 @@ def START():
     return [
         slide(1, T, "Datos que siempre hay que considerar · NBA", "Los arranques engañan",
               [Hero("3 de 10", "puntos de ventaja de los primeros partidos se mantienen el resto de la temporada.", AMBER)],
-              takeaway="Houston va 5-0. Antes de emocionarte (o de asustarte), 2 datos.", style="cover"),
+              takeaway="¿Tu equipo arrancó invicto? ¿O 0-4? Antes de emocionarte (o de asustarte), 2 datos.", style="cover"),
         slide(2, T, "Lo que medimos", "Los primeros partidos dicen algo, pero poco",
               [Stats([("0.40", "relación entre los 4 primeros partidos y el resto de la temporada", AMBER), ("p = 0.03", "la relación es real, pero débil", ACC)])],
               takeaway="Si un equipo gana por 10 en sus primeros juegos, lo esperable es que el resto del año gane por unos 3. No por 10.", tag="DATO 1 DE 2"),
