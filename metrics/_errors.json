@@ -5,7 +5,7 @@
    "metric": "views"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A3sJuk5ZQO5Z4Rr6EFk2OmY\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"At_BvUzdRXjATlbp5nljTV4\"}}"
  },
  {
   "path": "18084293903384981/insights",
@@ -13,7 +13,7 @@
    "metric": "reach"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ASiLWinMjEUnWQfZdLcxccl\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Ab0HisxheGhRZKojoZIUNJJ\"}}"
  },
  {
   "path": "18084293903384981/insights",
@@ -21,7 +21,7 @@
    "metric": "likes"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Ao-qA5TX7TsD1_0igXMniTe\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AdnUG9gI4pn6u7f8_2K3k7-\"}}"
  },
  {
   "path": "18084293903384981/insights",
@@ -29,7 +29,7 @@
    "metric": "comments"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ATMNpzPB8dQiEJvWg_MVJq9\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Apr2FPk8StRvf-wX43mQ39J\"}}"
  },
  {
   "path": "18084293903384981/insights",
@@ -37,7 +37,7 @@
    "metric": "saved"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A_X40pkkEebfoTIIui05VJu\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AfGoodu6h9Jx3F1Q_IszFjz\"}}"
  },
  {
   "path": "18084293903384981/insights",
@@ -45,7 +45,7 @@
    "metric": "shares"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AktDx18Ud6Y8vJ54-ps_Ef9\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AA43dRoUnbr4R_JQcNRyB8E\"}}"
  },
  {
   "path": "18084293903384981/insights",
@@ -53,7 +53,7 @@
    "metric": "total_interactions"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AEvgpySBSu2k1DbLIrbvnBx\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AiTj55rpcPpyrBPxhO-1kij\"}}"
  },
  {
   "path": "18084293903384981/insights",
@@ -61,7 +61,7 @@
    "metric": "profile_visits"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Ab7NRNVHAjmpipCiR3IKiYM\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ALSKhPlBnVKpKxGvdysq2gd\"}}"
  },
  {
   "path": "18084293903384981/insights",
@@ -69,7 +69,7 @@
    "metric": "follows"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AEnrMDcxiwciCw8mvVHYNqm\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AY85azvezzPIJwhxDRUrTHb\"}}"
  },
  {
   "path": "17914592421500461/insights",
@@ -77,7 +77,7 @@
    "metric": "views"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AHka3HTSqPJWL3wsfmmLbTQ\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AxeI2sKfe3PTgNTsxUOTZZk\"}}"
  },
  {
   "path": "17914592421500461/insights",
@@ -85,7 +85,7 @@
    "metric": "reach"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Aqr6hM9aiEFlGNLmKsVQKd1\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AhHJADHPknPoMsOM8-t0eVS\"}}"
  },
  {
   "path": "17914592421500461/insights",
@@ -93,7 +93,7 @@
    "metric": "likes"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A01JJidKVc3amxNNiNj9gJF\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AbKOhwEOQfBI3bdZUw5QHBD\"}}"
  },
  {
   "path": "17914592421500461/insights",
@@ -101,7 +101,7 @@
    "metric": "comments"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AEPgVy5G4rUBxEbKhF3cNEp\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AVADbAT0mX7uqAEKQhG-mqQ\"}}"
  },
  {
   "path": "17914592421500461/insights",
@@ -109,7 +109,7 @@
    "metric": "saved"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Aj47rRjGPfXj55gsz3oh8Ct\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Akf7nNbSqEAOi2Qac_FRqKk\"}}"
  },
  {
   "path": "17914592421500461/insights",
@@ -117,7 +117,7 @@
    "metric": "shares"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A008V3d2NTGghyMIUValT7f\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Akld0wddTlROGbqylvz5t6s\"}}"
  },
  {
   "path": "17914592421500461/insights",
@@ -125,7 +125,7 @@
    "metric": "total_interactions"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ASDQI5q69uOhnHaVGzt_4Fh\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Ah1zcw15fmh8gO-9v_cgjar\"}}"
  },
  {
   "path": "17914592421500461/insights",
@@ -133,7 +133,7 @@
    "metric": "profile_visits"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Ac2bk__Ajdt6kELrWU3shQZ\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AjVutXCId8w4xii_SOLJ9Jl\"}}"
  },
  {
   "path": "17914592421500461/insights",
@@ -141,7 +141,7 @@
    "metric": "follows"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AeeO1cBU-1pRO6h2nGABOdo\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AKZd6CLADz8pTs6xYc1qBuz\"}}"
  },
  {
   "path": "18148546546600822/insights",
@@ -149,7 +149,7 @@
    "metric": "views"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AhE5PNXQ5lL5m77BjOf1sWk\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AcizmwrBX3t1a4yuXzbguPV\"}}"
  },
  {
   "path": "18148546546600822/insights",
@@ -157,7 +157,7 @@
    "metric": "reach"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AWpuEnALIdjaw4W8V0n0gTs\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Au0qwrjD-ZrdoV6sZPbPIBX\"}}"
  },
  {
   "path": "18148546546600822/insights",
@@ -165,7 +165,7 @@
    "metric": "likes"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AGeH4PNM0h4jsp45swIwo38\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AR7XhMciMKHX1OvlqT3hiuu\"}}"
  },
  {
   "path": "18148546546600822/insights",
@@ -173,7 +173,7 @@
    "metric": "comments"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ATxLssZ7Xti8ChTCkVKCuom\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A5ede-MlYggMinyCG4rZA1c\"}}"
  },
  {
   "path": "18148546546600822/insights",
@@ -181,7 +181,7 @@
    "metric": "saved"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A-v2n4s153moqFtXjXy4XQv\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A9y9zbIQh5RBnzj8wQas3bP\"}}"
  },
  {
   "path": "18148546546600822/insights",
@@ -189,7 +189,7 @@
    "metric": "shares"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AXS280kHuf6kVBLlsn-Jrbv\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AQxNCwi2raaO6djV7nLK9_n\"}}"
  },
  {
   "path": "18148546546600822/insights",
@@ -197,7 +197,7 @@
    "metric": "total_interactions"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ARUBI6p7UDcOfldMN5D7eF0\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ANBqFamIVhhYeUJMjkVPMe5\"}}"
  },
  {
   "path": "18148546546600822/insights",
@@ -205,7 +205,7 @@
    "metric": "profile_visits"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AP-QgCtGGUYo5zDQV2QoYF1\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ATj48MknNZdUedaOY9OhQ-6\"}}"
  },
  {
   "path": "18148546546600822/insights",
@@ -213,7 +213,7 @@
    "metric": "follows"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AfWFH3VjO45llVTze-y02qf\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AiTPgHro0b6kfQqeiHrPYDn\"}}"
  },
  {
   "path": "18079348325549545/insights",
@@ -221,7 +221,7 @@
    "metric": "views"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Ai4SVzY1A7YZgeWYDwl6A88\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AMIUqi1NNY0egYTAOk6grzA\"}}"
  },
  {
   "path": "18079348325549545/insights",
@@ -229,7 +229,7 @@
    "metric": "reach"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AKZNBcLWyKWdImSi2o4kJkl\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AZ-TP7rHooa3sYY7SjpWfpv\"}}"
  },
  {
   "path": "18079348325549545/insights",
@@ -237,7 +237,7 @@
    "metric": "likes"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AZY9hELxw_L2EbeaQoKxFs_\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ADulaUP3PKZZofDeQj2ugJ4\"}}"
  },
  {
   "path": "18079348325549545/insights",
@@ -245,7 +245,7 @@
    "metric": "comments"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AIa9YhsQ_pr14jUIavN-RdA\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AJrtap9oZNmhRU-W-uvBSPZ\"}}"
  },
  {
   "path": "18079348325549545/insights",
@@ -253,7 +253,7 @@
    "metric": "saved"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AQHjdoi7m4txFsweQNAptqx\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A6SjQ0MjVni7Gjc0NM-8DAZ\"}}"
  },
  {
   "path": "18079348325549545/insights",
@@ -261,7 +261,7 @@
    "metric": "shares"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AgmsnXvWHej6AIRKm1E-oQY\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AcQ9S6a9NDrIvRBJqDKzsF0\"}}"
  },
  {
   "path": "18079348325549545/insights",
@@ -269,7 +269,7 @@
    "metric": "total_interactions"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A8VRL79s0L2XxwsBiN6uUKJ\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ANvGlvCyYxuV53dyAvN00nO\"}}"
  },
  {
   "path": "18079348325549545/insights",
@@ -277,7 +277,7 @@
    "metric": "profile_visits"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AI1lYbAhlJy2379CgmyzqpF\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AQldB3YQ_yKHZscPO0OqjFD\"}}"
  },
  {
   "path": "18079348325549545/insights",
@@ -285,7 +285,7 @@
    "metric": "follows"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ALsqV2ClihWuR9Q9kkcOO2L\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Ac3-sITPHG0J4SJzY8j_cFQ\"}}"
  },
  {
   "path": "17934885966409608/insights",
@@ -293,7 +293,7 @@
    "metric": "views"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A5mp1PDLMpW_OwnhqsWJ5_o\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Ap00P2cpfvgGEwLJi4BpPYp\"}}"
  },
  {
   "path": "17934885966409608/insights",
@@ -301,7 +301,7 @@
    "metric": "reach"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AUWf1AmQzJUXFumIf7c8bar\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AUcGifPxWzuTgUeZ6kZ6DRr\"}}"
  },
  {
   "path": "17934885966409608/insights",
@@ -309,7 +309,7 @@
    "metric": "likes"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ANbGQWAUGU9RWqwHddgPeVe\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AHGEU5QSTUzGImYSkQdLqmB\"}}"
  },
  {
   "path": "17934885966409608/insights",
@@ -317,7 +317,7 @@
    "metric": "comments"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AaC5tv9V6hWaFsYSUgOd-kP\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ATTTqJra2iVZ2DJuyWofXJ7\"}}"
  },
  {
   "path": "17934885966409608/insights",
@@ -325,7 +325,7 @@
    "metric": "saved"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AfJLuFzmh2WCwULBaueAZ1P\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A29pwTYRhtHSfOc_Yj-jxY3\"}}"
  },
  {
   "path": "17934885966409608/insights",
@@ -333,7 +333,7 @@
    "metric": "shares"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A4jFM_KFRB2JBRTsaFPSnLl\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AVZeFkSDCT_esDQPysq94jl\"}}"
  },
  {
   "path": "17934885966409608/insights",
@@ -341,7 +341,7 @@
    "metric": "total_interactions"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AGy1_ex-38cEPTmdK5l56A9\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Ae538B16FyDG9VIlmW4YCJ7\"}}"
  },
  {
   "path": "17934885966409608/insights",
@@ -349,7 +349,7 @@
    "metric": "profile_visits"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AKfe9BcdOs2O0ujlMGkCRER\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ASvNYsRYd-epblOC7KxQJqc\"}}"
  },
  {
   "path": "17934885966409608/insights",
@@ -357,7 +357,7 @@
    "metric": "follows"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Ajyk_JUcGETbAM1SRQ-HMeh\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AglOQuCUdCO5umgcvPl3_qX\"}}"
  },
  {
   "path": "18015582617755353/insights",
@@ -365,7 +365,7 @@
    "metric": "views"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AFp1km6uc7z0sbBYkUccFnS\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AiMBmv9TCi8xC1DjkOh8Pew\"}}"
  },
  {
   "path": "18015582617755353/insights",
@@ -373,7 +373,7 @@
    "metric": "reach"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A-PuMQJQ9A92wJm2UFd68Ll\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ARNzXCLIUAzG9n2cRvQaUqj\"}}"
  },
  {
   "path": "18015582617755353/insights",
@@ -381,7 +381,7 @@
    "metric": "likes"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"An4bxSj_DCJmvZbzniGWA2W\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AAXYxhRcKeKerdcH8QyZC5V\"}}"
  },
  {
   "path": "18015582617755353/insights",
@@ -389,7 +389,7 @@
    "metric": "comments"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AJZCMMWjRBFx4lY4H10HePD\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AhOf52Iw8wI05NqnYN_RN0v\"}}"
  },
  {
   "path": "18015582617755353/insights",
@@ -397,7 +397,7 @@
    "metric": "saved"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AuNxq-sSTdCa6upi7BLBFih\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A_xiIkuO2Jj7E_Ig2qjA6De\"}}"
  },
  {
   "path": "18015582617755353/insights",
@@ -405,7 +405,7 @@
    "metric": "shares"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A6mlzZLxXU7jy7CG2pEiEC5\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AVaDgUFmNxiGt5mtStCeSR6\"}}"
  },
  {
   "path": "18015582617755353/insights",
@@ -413,7 +413,7 @@
    "metric": "total_interactions"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AEtgZ1xIVmgwu8qdkwrWpwv\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A-8F9SDXSyuBGr7w-gwf7ym\"}}"
  },
  {
   "path": "18015582617755353/insights",
@@ -421,7 +421,7 @@
    "metric": "profile_visits"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AwX8C9jo1NGnJG9wgUEC2k9\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AVwcvk9XQO8_Y88lhlzhkqI\"}}"
  },
  {
   "path": "18015582617755353/insights",
@@ -429,7 +429,7 @@
    "metric": "follows"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Ast12x5z8SbeVdBpv_P-tPJ\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A_TRVX7SMmi_kRWdMDrPGf1\"}}"
  },
  {
   "path": "18122688517938812/insights",
@@ -437,7 +437,7 @@
    "metric": "views"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Awe_VgpdWebJOzad9Eaf7mU\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AeXLBfNhvCdKiWqSUmqvqRp\"}}"
  },
  {
   "path": "18122688517938812/insights",
@@ -445,7 +445,7 @@
    "metric": "reach"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AJjGn0w_HkQVDciQrYELbAR\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A7ZxNVPPlonXjDV8rlKAFNL\"}}"
  },
  {
   "path": "18122688517938812/insights",
@@ -453,7 +453,7 @@
    "metric": "likes"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AqiUKrs8-pWuf3U9GbfoA44\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Aq8Z-GMF3SFxUrCck0G_gtd\"}}"
  },
  {
   "path": "18122688517938812/insights",
@@ -461,7 +461,7 @@
    "metric": "comments"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A4SDXEljVYOhvzOrNkswrpz\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AxVoOhjyGTIFQn2kVxu1QQz\"}}"
  },
  {
   "path": "18122688517938812/insights",
@@ -469,7 +469,7 @@
    "metric": "saved"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AWG_Qfb2uWmYt4H8AT0dwe7\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AN3D0cF6d5mdnX62nDd3D7A\"}}"
  },
  {
   "path": "18122688517938812/insights",
@@ -477,7 +477,7 @@
    "metric": "shares"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A-DVbf5SiuuU_1X71TxqxFb\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AzM_DTm3Th_7n7NRfGZwlOH\"}}"
  },
  {
   "path": "18122688517938812/insights",
@@ -485,7 +485,7 @@
    "metric": "total_interactions"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AA2vz7_DAHVtMN6RHlfdckg\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ARCoO1p1X3p5B5-6xhu1QSm\"}}"
  },
  {
   "path": "18122688517938812/insights",
@@ -493,7 +493,7 @@
    "metric": "profile_visits"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AX-Yil-R_f0lWAVzF7a7HEI\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Af-V6uMCWgedmnReGtQj8p_\"}}"
  },
  {
   "path": "18122688517938812/insights",
@@ -501,7 +501,7 @@
    "metric": "follows"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AIny0tHuFbfOKPga22HSnDh\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A5UvkLqjocFN5eYfmS_4QwM\"}}"
  },
  {
   "path": "17970725745198663/insights",
@@ -509,7 +509,7 @@
    "metric": "views"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AY3RwDoef_-Uq2JtZhIHO9m\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"APdQgVkrVCLMz-aXWsKrBix\"}}"
  },
  {
   "path": "17970725745198663/insights",
@@ -517,7 +517,7 @@
    "metric": "reach"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AwZMaWk25CUXUF2uQAwOvtM\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Aw3UbkBoa5zc8X7do6CGyZn\"}}"
  },
  {
   "path": "17970725745198663/insights",
@@ -525,7 +525,7 @@
    "metric": "likes"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Ai-eYW5N2bqBkOfSk0K5g9F\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AfNgmqTtTtq05ibSi8zcWug\"}}"
  },
  {
   "path": "17970725745198663/insights",
@@ -533,7 +533,7 @@
    "metric": "comments"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AptkhZVdNcEV9WIvpPHPEc8\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AKiqIo5H7gj0ThwWUdjlYso\"}}"
  },
  {
   "path": "17970725745198663/insights",
@@ -541,7 +541,7 @@
    "metric": "saved"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AYX8ghsRhbvTorS98zTdVq4\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ACIOuKqnq-8voKOsYAIp7D6\"}}"
  },
  {
   "path": "17970725745198663/insights",
@@ -549,7 +549,7 @@
    "metric": "shares"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ATQ5DYuUESHfRjQxTaRKr7N\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A3BfMolmJAdlRBUDbixLeoA\"}}"
  },
  {
   "path": "17970725745198663/insights",
@@ -557,7 +557,7 @@
    "metric": "total_interactions"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ANQHvXIlbi9oj7kUbFJGP-_\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ADoB-I17rvF_T91nIwXFrqA\"}}"
  },
  {
   "path": "17970725745198663/insights",
@@ -565,7 +565,7 @@
    "metric": "profile_visits"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A3-R59gjKYEwRwtc1hsyMos\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ApqMxRFbrqGjtFVdCMpMZKM\"}}"
  },
  {
   "path": "17970725745198663/insights",
@@ -573,7 +573,7 @@
    "metric": "follows"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AyThQyG0r0GOD0X68E0Wide\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ANaVqcA2eMJSZv2DGoEcFAj\"}}"
  },
  {
   "path": "18058868891573887/insights",
@@ -581,7 +581,7 @@
    "metric": "views"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ABzU6feENXvB0tQAX-Kg_wx\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A_Lq4yFms7YjEkCMVFLVpDR\"}}"
  },
  {
   "path": "18058868891573887/insights",
@@ -589,7 +589,7 @@
    "metric": "reach"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AEBcYmpA9uJ1wF84QN6t2Jn\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A7owHr66waaJGdvZFy6Yh--\"}}"
  },
  {
   "path": "18058868891573887/insights",
@@ -597,7 +597,7 @@
    "metric": "likes"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AtGMdHVVGJ1abnk-Qvaq4Da\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AlloaiY1eiT80i6WjGbOAam\"}}"
  },
  {
   "path": "18058868891573887/insights",
@@ -605,7 +605,7 @@
    "metric": "comments"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AIxXHBE4kdxCr7xHJ-TqeuS\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AoNOEy0Ac43cak-ZbqwDVNV\"}}"
  },
  {
   "path": "18058868891573887/insights",
@@ -613,7 +613,7 @@
    "metric": "saved"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AbYv2toxFFbchv2x0Fgy2BS\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"APE0Zerd7An69Y7OTv6KZRD\"}}"
  },
  {
   "path": "18058868891573887/insights",
@@ -621,7 +621,7 @@
    "metric": "shares"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A_lT7rVrWUeclYITZWNwa0-\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AXKJWwqT0oj52lEVfSIrfg1\"}}"
  },
  {
   "path": "18058868891573887/insights",
@@ -629,7 +629,7 @@
    "metric": "total_interactions"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Aa20FZJJsNZtBdi91cvBekf\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AfYBUoYJHtcvrSS6rnYsasE\"}}"
  },
  {
   "path": "18058868891573887/insights",
@@ -637,7 +637,7 @@
    "metric": "profile_visits"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AJr5UW_Fp6_HU02blTMZTs_\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AxxiPo9AGOBugMfmx7fGs2i\"}}"
  },
  {
   "path": "18058868891573887/insights",
@@ -645,7 +645,7 @@
    "metric": "follows"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Ao8A6za3jIOyilKt3ljTWvj\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AxHQsmvmhVFQ4VqrLaUXN8I\"}}"
  },
  {
   "path": "18109882757248651/insights",
@@ -653,7 +653,7 @@
    "metric": "views"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AvjxaKcOpsmHQK7HFNx7fPf\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A6qPN3MwGjXTtTfagfowjp7\"}}"
  },
  {
   "path": "18109882757248651/insights",
@@ -661,7 +661,7 @@
    "metric": "reach"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AA0NS-GTuQzsQRlxe5tnOrK\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AMwzmP-E9FgBd5favju2pFn\"}}"
  },
  {
   "path": "18109882757248651/insights",
@@ -669,7 +669,7 @@
    "metric": "likes"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AkO6s2YjcdOc-G4JecjsdTi\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A_eLaS6zzYYRfUEWXe-urER\"}}"
  },
  {
   "path": "18109882757248651/insights",
@@ -677,7 +677,7 @@
    "metric": "comments"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AHNhmvSPSsQ4z-KOvL2dEiU\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AOcjhOCm51HDhztphZHf_AU\"}}"
  },
  {
   "path": "18109882757248651/insights",
@@ -685,7 +685,7 @@
    "metric": "saved"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AcTCTBn3hV9O8_Pz8MKISyW\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AzsWRf7xLPMZfg49eViQzpD\"}}"
  },
  {
   "path": "18109882757248651/insights",
@@ -693,7 +693,7 @@
    "metric": "shares"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AMq97MA-fX0c-uOco_3OmCg\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ASDplyKTIuRSpIPC8mijYuq\"}}"
  },
  {
   "path": "18109882757248651/insights",
@@ -701,7 +701,7 @@
    "metric": "total_interactions"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AYSg0DcZGS4gZfmKGFKZwj9\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AJ8I-vqhU3XlumZXYPexpSf\"}}"
  },
  {
   "path": "18109882757248651/insights",
@@ -709,7 +709,7 @@
    "metric": "profile_visits"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AGRS8RfgmjzgYnb5aVF2K4J\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Alm0k7cUATHdlIIiw1fGlJ6\"}}"
  },
  {
   "path": "18109882757248651/insights",
@@ -717,7 +717,7 @@
    "metric": "follows"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AG6TmR64eMMMTMV1VVEH3Ha\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A2JKQ17SkJo_WSYgOCPMzDg\"}}"
  },
  {
   "path": "17841451380567277",
@@ -725,7 +725,7 @@
    "fields": "business_discovery.username(statmuse){username,name,followers_count,media_count,biography,media.limit(25){timestamp,media_type,like_count,comments_count,caption,permalink}}"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"type\":\"OAuthException\",\"code\":10,\"fbtrace_id\":\"AIkiodi7aTti_LVYL-BWYSw\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"type\":\"OAuthException\",\"code\":10,\"fbtrace_id\":\"Aq7mMPIgxWB3qOnbIFf1b-c\"}}"
  },
  {
   "path": "17841451380567277",
@@ -733,7 +733,7 @@
    "fields": "business_discovery.username(squawka){username,name,followers_count,media_count,biography,media.limit(25){timestamp,media_type,like_count,comments_count,caption,permalink}}"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"type\":\"OAuthException\",\"code\":10,\"fbtrace_id\":\"AnfiFRYsV_3BD79lUxCgtYP\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"type\":\"OAuthException\",\"code\":10,\"fbtrace_id\":\"AsoGedr9M2KxYJnreGxMdQj\"}}"
  },
  {
   "path": "17841451380567277",
@@ -741,7 +741,7 @@
    "fields": "business_discovery.username(theanalyst){username,name,followers_count,media_count,biography,media.limit(25){timestamp,media_type,like_count,comments_count,caption,permalink}}"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"type\":\"OAuthException\",\"code\":10,\"fbtrace_id\":\"AaG5MIg6oevBLjZh9N25-U2\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"type\":\"OAuthException\",\"code\":10,\"fbtrace_id\":\"A-iBkV014JnQYpB1ci3wIu9\"}}"
  },
  {
   "path": "17841451380567277",
@@ -749,7 +749,7 @@
    "fields": "business_discovery.username(statsbomb){username,name,followers_count,media_count,biography,media.limit(25){timestamp,media_type,like_count,comments_count,caption,permalink}}"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"type\":\"OAuthException\",\"code\":10,\"fbtrace_id\":\"AMR2Lonvj2Yx7phwCyrSzCX\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"type\":\"OAuthException\",\"code\":10,\"fbtrace_id\":\"ASOE5Ehbcxm17k7x2jBLtIn\"}}"
  },
  {
   "path": "17841451380567277",
@@ -757,7 +757,7 @@
    "fields": "business_discovery.username(whoscored){username,name,followers_count,media_count,biography,media.limit(25){timestamp,media_type,like_count,comments_count,caption,permalink}}"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"type\":\"OAuthException\",\"code\":10,\"fbtrace_id\":\"A1V60OZVN-94pi8pryTSV23\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"type\":\"OAuthException\",\"code\":10,\"fbtrace_id\":\"AW2Yf1RI7zsj8GNMJgtyV1p\"}}"
  },
  {
   "path": "17841451380567277",
@@ -765,7 +765,7 @@
    "fields": "business_discovery.username(sofascore){username,name,followers_count,media_count,biography,media.limit(25){timestamp,media_type,like_count,comments_count,caption,permalink}}"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"type\":\"OAuthException\",\"code\":10,\"fbtrace_id\":\"Ap1AjjA_NqQejiOXTfCMerp\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"type\":\"OAuthException\",\"code\":10,\"fbtrace_id\":\"AInMdr252WSi-AE9lcao4-3\"}}"
  },
  {
   "path": "17841451380567277",
@@ -773,7 +773,7 @@
    "fields": "business_discovery.username(fotmob){username,name,followers_count,media_count,biography,media.limit(25){timestamp,media_type,like_count,comments_count,caption,permalink}}"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"type\":\"OAuthException\",\"code\":10,\"fbtrace_id\":\"AtB9nhMrpF5zvWWOJBOfUBo\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"type\":\"OAuthException\",\"code\":10,\"fbtrace_id\":\"AZColNDwmRtAovf_XJH3QCD\"}}"
  },
  {
   "path": "17841451380567277",
@@ -781,7 +781,7 @@
    "fields": "business_discovery.username(misterchip){username,name,followers_count,media_count,biography,media.limit(25){timestamp,media_type,like_count,comments_count,caption,permalink}}"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"type\":\"OAuthException\",\"code\":10,\"fbtrace_id\":\"Ah_uRpyWnFnb6NW-w6115gZ\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"type\":\"OAuthException\",\"code\":10,\"fbtrace_id\":\"A45AVH8cQGcnc-V5o169BJR\"}}"
  },
  {
   "path": "17841451380567277",
@@ -789,7 +789,7 @@
    "fields": "business_discovery.username(espnstatsinfo){username,name,followers_count,media_count,biography,media.limit(25){timestamp,media_type,like_count,comments_count,caption,permalink}}"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"type\":\"OAuthException\",\"code\":10,\"fbtrace_id\":\"AdZk1gTikGe6JEGu-oloo6R\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"type\":\"OAuthException\",\"code\":10,\"fbtrace_id\":\"AfEZI_GhTsrm8NptV7LUi0G\"}}"
  },
  {
   "path": "17841451380567277",
@@ -797,7 +797,7 @@
    "fields": "business_discovery.username(espndeportes){username,name,followers_count,media_count,biography,media.limit(25){timestamp,media_type,like_count,comments_count,caption,permalink}}"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"type\":\"OAuthException\",\"code\":10,\"fbtrace_id\":\"AlggJQ-QAtaeczW_KjZGvRt\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"type\":\"OAuthException\",\"code\":10,\"fbtrace_id\":\"A9bx2tGvYQCTD-548gkdxaw\"}}"
  },
  {
   "path": "17841451380567277",
@@ -805,7 +805,7 @@
    "fields": "business_discovery.username(mediotiempo){username,name,followers_count,media_count,biography,media.limit(25){timestamp,media_type,like_count,comments_count,caption,permalink}}"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"type\":\"OAuthException\",\"code\":10,\"fbtrace_id\":\"Anecihvn8bXEZ3FEPRBmYRI\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"type\":\"OAuthException\",\"code\":10,\"fbtrace_id\":\"AP_cwpU5Yypek1efj_Lzj2A\"}}"
  },
  {
   "path": "17841451380567277",
@@ -813,7 +813,7 @@
    "fields": "business_discovery.username(foxsportsmx){username,name,followers_count,media_count,biography,media.limit(25){timestamp,media_type,like_count,comments_count,caption,permalink}}"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"type\":\"OAuthException\",\"code\":10,\"fbtrace_id\":\"AiKF-x5-SGZ4fk9yjgzgfDN\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"type\":\"OAuthException\",\"code\":10,\"fbtrace_id\":\"AiK839f4Uy64FFbqgZFx25F\"}}"
  },
  {
   "path": "17841451380567277",
@@ -821,7 +821,7 @@
    "fields": "business_discovery.username(tudnmex){username,name,followers_count,media_count,biography,media.limit(25){timestamp,media_type,like_count,comments_count,caption,permalink}}"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"type\":\"OAuthException\",\"code\":10,\"fbtrace_id\":\"A0Qfwg1za1KwiLLEFyYDOCL\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"type\":\"OAuthException\",\"code\":10,\"fbtrace_id\":\"AITbseNm3Imjr3Rsj09KOyE\"}}"
  },
  {
   "path": "17841451380567277",
@@ -829,6 +829,6 @@
    "fields": "business_discovery.username(futbolmx){username,name,followers_count,media_count,biography,media.limit(25){timestamp,media_type,like_count,comments_count,caption,permalink}}"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"type\":\"OAuthException\",\"code\":10,\"fbtrace_id\":\"AFw5LeJ4xHCz1toexHssG4P\"}}"
+  "error": "{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"type\":\"OAuthException\",\"code\":10,\"fbtrace_id\":\"AjvhzdQkS4N8VTt-VBa7hHO\"}}"
  }
 ]
