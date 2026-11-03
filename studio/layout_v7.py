@@ -240,12 +240,14 @@ class Tests(Block):
         for it, hh in zip(self.items, nat):
             ok, claim, res, tech = it
             hh += extra
-            col = ACC if ok else NEG
+            col = AMBER if ok is None else (ACC if ok else NEG)
             d.rounded_rectangle((M, y, W - M, y + hh), radius=20, fill=SURF)
             d.rounded_rectangle((M, y, M + 10, y + hh), radius=5, fill=col)
             cy = y + 36 + 28
             d.ellipse((M + 34, cy - 30, M + 94, cy + 30), fill=col)
-            if ok:
+            if ok is None:
+                fq = F("InterDisplay-Black.otf", 44); d.text((M + 64 - d.textlength("?", font=fq) / 2, cy - 27), "?", font=fq, fill=BG)
+            elif ok:
                 d.line((M + 49, cy, M + 60, cy + 13), fill=BG, width=7); d.line((M + 60, cy + 13, M + 80, cy - 13), fill=BG, width=7)
             else:
                 d.line((M + 52, cy - 12, M + 76, cy + 12), fill=BG, width=7); d.line((M + 76, cy - 12, M + 52, cy + 12), fill=BG, width=7)
