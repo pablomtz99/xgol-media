@@ -1,0 +1,24 @@
+Resumen del miércoles 📊 Champions + NBA: 16 de 23 favoritos ganaron
+
+Antes de cada partido calculamos probabilidades. Hoy las comparamos con lo que pasó, ganemos o perdamos.
+
+⚽ Champions (9 partidos): 7 de 9 favoritos ganaron; esperábamos 4.8.
+• Aciertos: Madrid en Atenas (69%), City en Leipzig (49%), Arsenal en Praga (58%), Porto 4-1 Napoli (53%), Dortmund, Viking y Como.
+• Fallos: Fenerbahçe 3-2 Liverpool y PSV 1-2 Brujas.
+• Error (Brier): 0.44. Al azar: 0.67.
+
+🏀 NBA (14 partidos): dijimos "unos 9 de 14"… y fueron 9.
+• Los 4 favoritos más claros (78–81%) ganaron.
+• Fallos: Detroit, Houston, Memphis, Charlotte y Clippers (en tiempo extra), todos entre 54% y 70%.
+• Error (Brier): 0.207. Un volado: 0.25.
+
+🎯 ¿Mérito o suerte? Acertar 16 o más de 23 con esas probabilidades pasa 26 de cada 100 noches: buena noche, no milagro.
+
+🌧️ Los goles: el martes faltaron 11 y el miércoles sobraron 11 (44 contra 33 esperados). En los 17 partidos de la jornada: 66 contra 65.5. Regresión a la media en vivo. ¿Y el 1-9 de Como en Lens? Según el modelo, 1 en 12,800.
+
+¿Qué resultado del miércoles no viste venir? 👇
+
+Método en el último slide. Resultados: Land of Basketball, ESPN, Blueprint, The Sports Encounter.
+Análisis independiente, no afiliado a la UEFA, la NBA ni los clubes. No es recomendación de apuesta.
+
+#Champions #UCL #NBA #DatosDeportivos #Estadística #xGol
