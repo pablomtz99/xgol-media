@@ -1,0 +1,21 @@
+Resumen del jueves 📊 3 de 3 favoritos ganaron (NFL + NBA)
+
+Antes de cada partido calculamos probabilidades. Hoy las comparamos con lo que pasó, ganemos o perdamos.
+
+🏈 Jaguars 33-10 Ravens: le dábamos 73% a Jacksonville. Esperábamos +8; ganó por 23.
+🏀 Heat 100-120 Warriors: Golden State 63% (Miami venía de jugar la noche anterior). Ganó por 20.
+🏀 Magic 104-117 Suns: Phoenix 53%. Ganó por 13.
+
+• Error de la noche (Brier): 0.14. Un volado: 0.25.
+• Esperábamos 1.9 aciertos; 3 de 3 pasa 1 de cada 4 noches.
+
+📉 ¿Nos quedamos cortos? Los tres ganaron por ~14 puntos más de lo esperado, pero en 107 partidos de NBA los favoritos ganan justo por lo que decimos (−1.1 pts, p = 0.43). Una noche de palizas es ruido.
+
+🎯 Acumulado NBA (fuera de muestra): 72 aciertos de 107 contra 70.1 esperados; calibración p = 0.94. Ojo: los favoritos de 60–70% van flojos (16 de 34). Es un indicio, no una prueba; lo vigilamos.
+
+¿Cuál de los tres te sorprendió más? 👇
+
+Método en el último slide. Resultados: nflverse, ESPN, The Sports Encounter. Datos NFL: nflverse.
+Análisis independiente, no afiliado a la NFL, la NBA ni los equipos. No es recomendación de apuesta.
+
+#NBA #NFL #DatosDeportivos #Estadística #xGol
