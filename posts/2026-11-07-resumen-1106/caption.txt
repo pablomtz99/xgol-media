@@ -1,0 +1,20 @@
+Resumen del viernes 📊 9 de 9 en la NBA
+
+Antes de cada partido calculamos probabilidades. Hoy las comparamos con lo que pasó, ganemos o perdamos.
+
+🏀 Lakers 124-118 Trail Blazers: nuestra portada. Le dábamos 58% a Los Ángeles; perdía al medio y Dončić metió 53.
+🏀 Los otros 8 favoritos también ganaron: Cleveland (55%), Dallas (67%), Oklahoma City (67%), Boston (68%), Toronto (68%), Minnesota (72%), Atlanta (74%) y San Antonio (83%).
+
+• Error de la noche (Brier): 0.11. Un volado: 0.25.
+• Esperábamos 6.1 aciertos. Un 9 de 9 con estas probabilidades pasa 1 noche de cada 34: buen modelo y buena suerte.
+
+📉 ¿Nos quedamos cortos? Los favoritos ganaron por 10 puntos más de lo esperado, pero en 116 partidos ganan justo por lo que decimos (−0.2 pts, p = 0.87).
+
+🎯 Acumulado NBA (fuera de muestra): 81 aciertos de 116 contra 76.2 esperados; calibración p = 0.53. Los favoritos de 50–60% ganan de más y los de 60–70% de menos; con corrección por pruebas múltiples, ninguna diferencia es prueba.
+
+¿Cuál de los nueve te parecía más arriesgado? 👇
+
+Lakers–Portland fue nuestra portada; los otros 8 partidos los calculamos con el mismo modelo y solo datos previos a la noche (jornada completa, sin elegir). Método en el último slide. Resultados: Land of Basketball, ESPN.
+Análisis independiente, no afiliado a la NBA ni a los equipos. No es recomendación de apuesta.
+
+#NBA #DatosDeportivos #Estadística #xGol
