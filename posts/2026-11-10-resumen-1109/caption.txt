@@ -1,0 +1,19 @@
+Resumen del lunes 📊 6 de 8 en la NBA
+
+Antes de cada partido calculamos probabilidades. Hoy las comparamos con lo que pasó, ganemos o perdamos.
+
+🏀 Ganaron 6 favoritos: Detroit (85%), Dallas (69%), Golden State (68%), San Antonio (68%), Houston (62%) y Lakers (57%).
+❌ Cayeron Cleveland (70%) en Charlotte, 112-124, y Toronto (67%) ante Memphis, 102-118.
+
+• Error de la noche (Brier): 0.20. Un volado: 0.25.
+• Esperábamos 5.4 aciertos. Con estas probabilidades, 6 de 8 era el resultado más probable (29%).
+• Lo raro fue Golden State: esperábamos +7 y ganó por 51. Un desvío así sale 3 de cada 1,000 partidos.
+
+🎯 Acumulado NBA (fuera de muestra): 98 aciertos de 138 contra 91.2 esperados; calibración p = 0.30. Los favoritos de 60–70% ganan un poco menos de lo esperado (27 de 48 vs. 31.5); con corrección por pruebas múltiples, es indicio, no prueba.
+
+¿Te sorprendió más Charlotte o Memphis? 👇
+
+Calculamos los 8 partidos con el mismo modelo y solo datos previos a la noche (jornada completa, sin elegir). Método en el último slide. Resultados: Land of Basketball, ESPN.
+Análisis independiente, no afiliado a la NBA ni a los equipos. No es recomendación de apuesta.
+
+#NBA #DatosDeportivos #Estadística #xGol
