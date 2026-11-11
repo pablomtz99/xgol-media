@@ -1,0 +1,20 @@
+Resumen del martes 📊 5 de 6 en la NBA
+
+Antes de cada partido calculamos probabilidades. Hoy las comparamos con lo que pasó, ganemos o perdamos.
+
+🏀 Ganaron 5 favoritos: Nueva York (80%), Orlando (64%), Miami (63%), Boston (58%) y Phoenix (53%).
+❌ Cayó Oklahoma City (62%) en Portland, 103-123.
+
+• Error de la noche (Brier): 0.18. Un volado: 0.25.
+• Esperábamos 3.8 aciertos. 5 o más pasa en 29 de cada 100 noches como esta: buena noche, no rara.
+• Lo raro fue Portland: esperábamos Oklahoma City por 4 y perdió por 20. Un desvío así sale 1 de cada 21 partidos.
+• Philadelphia llegaba 9-2 ganando apretado; Boston, con mejor diferencia de puntos, ganó por 22.
+
+🎯 Acumulado NBA (fuera de muestra): 103 aciertos de 144 contra 95.0 esperados; calibración p = 0.25. En partidos parejos (50–60%) ganan más favoritos de lo que decimos (35 de 48 vs. 26.9); con corrección por pruebas múltiples, es indicio, no prueba.
+
+Hoy se repite Oklahoma City en Portland. ¿Revancha o Portland otra vez? 👇
+
+Calculamos los 6 partidos con el mismo modelo y solo datos previos a la noche (jornada completa, sin elegir). Método en el último slide. Resultados: ESPN, AP, Land of Basketball.
+Análisis independiente, no afiliado a la NBA ni a los equipos. No es recomendación de apuesta.
+
+#NBA #DatosDeportivos #Estadística #xGol
