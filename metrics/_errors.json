@@ -5,7 +5,7 @@
    "fields": "username,followers_count,media_count"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":460,\"fbtrace_id\":\"AmihJj0JIFPKDDczzy7xu9O\"}}"
+  "error": "{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":460,\"fbtrace_id\":\"AmXq3ZpUsIzDqsAW0tXQOEa\"}}"
  },
  {
   "path": "17841451380567277/media",
@@ -14,7 +14,7 @@
    "limit": 100
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":460,\"fbtrace_id\":\"A9_dx4jv0ZvC3WuGeIjN2WP\"}}"
+  "error": "{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"code\":190,\"type\":\"OAuthException\",\"error_subcode\":460,\"fbtrace_id\":\"AvqXjjt6ATlckgf7pyHXWJh\"}}"
  },
  {
   "path": "17841451380567277",
@@ -22,7 +22,7 @@
    "fields": "business_discovery.username(statmuse){username,name,followers_count,media_count,biography,media.limit(25){timestamp,media_type,like_count,comments_count,caption,permalink}}"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":460,\"fbtrace_id\":\"AmspBMehTMkdBsm0knXQbVu\"}}"
+  "error": "{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":460,\"fbtrace_id\":\"AODfOB1fLMMezwCwdFqAAYg\"}}"
  },
  {
   "path": "17841451380567277",
@@ -30,7 +30,7 @@
    "fields": "business_discovery.username(squawka){username,name,followers_count,media_count,biography,media.limit(25){timestamp,media_type,like_count,comments_count,caption,permalink}}"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":460,\"fbtrace_id\":\"AWNDNP82RRc0QSYQRBjStmv\"}}"
+  "error": "{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":460,\"fbtrace_id\":\"AfEpqdOvOwl2_5qORisUsyg\"}}"
  },
  {
   "path": "17841451380567277",
@@ -38,7 +38,7 @@
    "fields": "business_discovery.username(theanalyst){username,name,followers_count,media_count,biography,media.limit(25){timestamp,media_type,like_count,comments_count,caption,permalink}}"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":460,\"fbtrace_id\":\"APDe5mAsqZJ0wRd2nIxOqhI\"}}"
+  "error": "{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":460,\"fbtrace_id\":\"AMOgzRRordwNJwHDSzQDURY\"}}"
  },
  {
   "path": "17841451380567277",
@@ -46,7 +46,7 @@
    "fields": "business_discovery.username(statsbomb){username,name,followers_count,media_count,biography,media.limit(25){timestamp,media_type,like_count,comments_count,caption,permalink}}"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":460,\"fbtrace_id\":\"A8P0VLiXtXVQBgsEeItY1rO\"}}"
+  "error": "{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":460,\"fbtrace_id\":\"A-4_27SzFiPDY4XGKqj015H\"}}"
  },
  {
   "path": "17841451380567277",
@@ -54,7 +54,7 @@
    "fields": "business_discovery.username(whoscored){username,name,followers_count,media_count,biography,media.limit(25){timestamp,media_type,like_count,comments_count,caption,permalink}}"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":460,\"fbtrace_id\":\"ALCuN90Pn7oQhTgL-3PAIJI\"}}"
+  "error": "{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":460,\"fbtrace_id\":\"A0p7xqYB8fADVMYBm5JKGo_\"}}"
  },
  {
   "path": "17841451380567277",
@@ -62,7 +62,7 @@
    "fields": "business_discovery.username(sofascore){username,name,followers_count,media_count,biography,media.limit(25){timestamp,media_type,like_count,comments_count,caption,permalink}}"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":460,\"fbtrace_id\":\"AegsmVfXhoSkMu0ESliQv8A\"}}"
+  "error": "{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":460,\"fbtrace_id\":\"AqpAln7aVNpJC3G8U_YWY06\"}}"
  },
  {
   "path": "17841451380567277",
@@ -70,7 +70,7 @@
    "fields": "business_discovery.username(fotmob){username,name,followers_count,media_count,biography,media.limit(25){timestamp,media_type,like_count,comments_count,caption,permalink}}"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":460,\"fbtrace_id\":\"AjJbWrQsTxMPEWbYUNzjx5H\"}}"
+  "error": "{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":460,\"fbtrace_id\":\"AOO2_Ci3xPfM1ccU1I4jzAQ\"}}"
  },
  {
   "path": "17841451380567277",
@@ -78,7 +78,7 @@
    "fields": "business_discovery.username(misterchip){username,name,followers_count,media_count,biography,media.limit(25){timestamp,media_type,like_count,comments_count,caption,permalink}}"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":460,\"fbtrace_id\":\"AYCCJY4FTYX2HQ4132i-a9I\"}}"
+  "error": "{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":460,\"fbtrace_id\":\"AGwIiUHrFrRq9cANYAyQ6KE\"}}"
  },
  {
   "path": "17841451380567277",
@@ -86,7 +86,7 @@
    "fields": "business_discovery.username(espnstatsinfo){username,name,followers_count,media_count,biography,media.limit(25){timestamp,media_type,like_count,comments_count,caption,permalink}}"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":460,\"fbtrace_id\":\"AMTX6hPhuxWReS9yrp_mJ7D\"}}"
+  "error": "{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":460,\"fbtrace_id\":\"AfdFyqXGCKBa1QAdFh4k9yx\"}}"
  },
  {
   "path": "17841451380567277",
@@ -94,7 +94,7 @@
    "fields": "business_discovery.username(espndeportes){username,name,followers_count,media_count,biography,media.limit(25){timestamp,media_type,like_count,comments_count,caption,permalink}}"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":460,\"fbtrace_id\":\"AnD9X906tf67mfxhrSf1UIz\"}}"
+  "error": "{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":460,\"fbtrace_id\":\"AsoXZud4HP53L7mwz5zIB1u\"}}"
  },
  {
   "path": "17841451380567277",
@@ -102,7 +102,7 @@
    "fields": "business_discovery.username(mediotiempo){username,name,followers_count,media_count,biography,media.limit(25){timestamp,media_type,like_count,comments_count,caption,permalink}}"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":460,\"fbtrace_id\":\"AjrzmqezMliVQ9NURPPP86r\"}}"
+  "error": "{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":460,\"fbtrace_id\":\"AsLXkibgZtN-AvoiVlJqbtY\"}}"
  },
  {
   "path": "17841451380567277",
@@ -110,7 +110,7 @@
    "fields": "business_discovery.username(foxsportsmx){username,name,followers_count,media_count,biography,media.limit(25){timestamp,media_type,like_count,comments_count,caption,permalink}}"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":460,\"fbtrace_id\":\"A8shzWvcBo3GQnQGWMVcxyq\"}}"
+  "error": "{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":460,\"fbtrace_id\":\"A1WEiIDC9uir67xsHlTJRtQ\"}}"
  },
  {
   "path": "17841451380567277",
@@ -118,7 +118,7 @@
    "fields": "business_discovery.username(tudnmex){username,name,followers_count,media_count,biography,media.limit(25){timestamp,media_type,like_count,comments_count,caption,permalink}}"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":460,\"fbtrace_id\":\"AXiPzOgZQd_joxc-FIyB99D\"}}"
+  "error": "{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":460,\"fbtrace_id\":\"AO-hOE0J0Mk1nWRCK4FtfPD\"}}"
  },
  {
   "path": "17841451380567277",
@@ -126,6 +126,6 @@
    "fields": "business_discovery.username(futbolmx){username,name,followers_count,media_count,biography,media.limit(25){timestamp,media_type,like_count,comments_count,caption,permalink}}"
   },
   "status": 400,
-  "error": "{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":460,\"fbtrace_id\":\"Acij8D9ID0IIgB6vB7FlVcW\"}}"
+  "error": "{\"error\":{\"message\":\"Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":460,\"fbtrace_id\":\"AE3XOGvFgxmK73TYsKg5xBN\"}}"
  }
 ]
