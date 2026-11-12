@@ -1,0 +1,21 @@
+Resumen del miércoles 📊 7 de 10 en la NBA
+
+Antes de cada partido calculamos probabilidades. Hoy las comparamos con lo que pasó, ganemos o perdamos.
+
+🏀 Ganaron 7 favoritos: San Antonio (83%), Lakers (78%), Houston (64%), Orlando (62%), Boston (59%), Denver (59%) e Indiana (54%).
+❌ Cayeron Nueva York (60%) ante Cleveland, Nueva Orleans (60%) ante Brooklyn y Oklahoma City (56%) en Portland.
+
+• Error de la noche (Brier): 0.19. Un volado: 0.25.
+• Esperábamos 6.4 aciertos. 7 o más pasa en 47 de cada 100 noches como esta: noche normal.
+• Lo raro fue Brooklyn: llegaba 2-8, esperábamos Nueva Orleans por 4 y ganó Brooklyn por 34. Un desvío así sale 1 de cada 190 partidos.
+• Los Lakers, clavados: esperábamos +11.3 en Milwaukee y ganaron por 11.
+• Portland barrió a Oklahoma City (dos de dos) y Curry salió en el primer cuarto en Houston.
+
+🎯 Acumulado NBA (fuera de muestra): 110 aciertos de 154 contra 101.4 esperados; calibración p = 0.20. En partidos parejos (50–60%) ganan más favoritos de lo que decimos (38 de 53 vs. 29.8); con corrección por pruebas múltiples, es indicio, no prueba.
+
+Golden State visita el viernes a San Antonio, quizá sin Curry. ¿Cuánto vale él solo? 👇
+
+Calculamos los 10 partidos con el mismo modelo y solo datos previos a la noche (jornada completa, sin elegir). Método en el último slide. Resultados: AP, ESPN, CBS Sports, Land of Basketball.
+Análisis independiente, no afiliado a la NBA ni a los equipos. No es recomendación de apuesta.
+
+#NBA #DatosDeportivos #Estadística #xGol
