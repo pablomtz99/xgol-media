@@ -1,0 +1,20 @@
+Resumen del jueves 📊 4 de 4 en la NBA
+
+Antes de cada partido calculamos probabilidades. Hoy las comparamos con lo que pasó, ganemos o perdamos.
+
+🏀 Ganaron los 4 favoritos: Detroit (80%), Minnesota (73%), Phoenix (65%) y Philadelphia (53%).
+
+• Error de la noche (Brier): 0.11. Un volado: 0.25.
+• Esperábamos 2.7 aciertos. El 4 de 4 pasa en 20 de cada 100 noches como esta: buena noche, no milagro.
+• Phoenix, clavado: esperábamos +5.8 y ganó por 5.
+• Minnesota, sin Edwards, ganó por 39 cuando esperábamos 9: un desvío así sale 1 de cada 50 partidos.
+• Detroit necesitó dos prórrogas en Washington con 52 de Cunningham, su récord personal.
+
+🎯 Acumulado NBA (fuera de muestra): 114 aciertos de 158 contra 104.1 esperados; calibración p = 0.15. En partidos parejos (50–60%) ganan más favoritos de lo que decimos (39 de 54 vs. 30.4); con corrección por pruebas múltiples, es indicio, no prueba.
+
+Esta noche San Antonio, el 1° de nuestra tabla, recibe a Golden State sin Curry. ¿Se sostiene la racha de 10? 👇
+
+Calculamos los 4 partidos con el mismo modelo y solo datos previos a la noche (jornada completa, sin elegir). Método en el último slide. Resultados: AP, ESPN, NBA.com, Land of Basketball.
+Análisis independiente, no afiliado a la NBA ni a los equipos. No es recomendación de apuesta.
+
+#NBA #DatosDeportivos #Estadística #xGol
