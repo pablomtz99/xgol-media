@@ -1,0 +1,20 @@
+Resumen del viernes 📊 1 de 3 en la NBA
+
+Antes de cada partido calculamos probabilidades. Hoy las comparamos con lo que pasó, ganemos o perdamos.
+
+🏀 Ganó San Antonio (68%). Perdieron Nueva York (74%) en Indiana y Cleveland (58%) en Miami.
+
+• Error de la noche (Brier): 0.33. Un volado: 0.25. Mala noche.
+• Esperábamos 2 aciertos. Uno o menos pasa en 26 de cada 100 noches como esta.
+• Nueva York cayó 106-104: Towns falló el tiro del empate al final.
+• Miami ganó 133-121 con 37 de Adebayo y 37 de Antetokounmpo, apenas la 2a vez en la historia del Heat.
+• San Antonio ganó por 38 cuando esperábamos 7, sin Curry enfrente: nuestro modelo no ve lesiones.
+
+🎯 Acumulado NBA al jueves (fuera de muestra): 114 aciertos de 158 contra 104.1 esperados; calibración p = 0.15.
+
+San Antonio suma 11 seguidas: con nuestras probabilidades previas, eso salía 1 de cada 30. ¿Hasta dónde llega? 👇
+
+Revisamos los 3 partidos del viernes que analizamos un día antes, con probabilidades fijadas antes del partido. Método en el último slide. Resultados: NBA.com, AP, ESPN.
+Análisis independiente, no afiliado a la NBA ni a los equipos. No es recomendación de apuesta.
+
+#NBA #DatosDeportivos #Estadística #xGol
