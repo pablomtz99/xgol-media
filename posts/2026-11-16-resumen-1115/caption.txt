@@ -1,0 +1,20 @@
+Resumen del domingo 📊 7 de 8 en la NFL
+
+Antes de cada partido calculamos probabilidades. Hoy las comparamos con lo que pasó, ganemos o perdamos.
+
+🏈 Ganaron Rams (69%), Seattle (60%), Jacksonville (81%), San Francisco (68%), Kansas City (70%), Buffalo (62%) y Cincinnati (62%). Falló Green Bay (66%): Minnesota ganó 30-10.
+
+• Error de la noche (Brier): 0.15. Un volado: 0.25.
+• Esperábamos 5.4 aciertos. Siete o más pasa en 1 de cada 5 domingos como este.
+• Los 4 favoritos de visita ganaron: lo calculamos el sábado en 24%.
+• Los mariscales debutantes sufrieron: Carson Beck, 11 de 18 con 2 intercepciones; a Fernando Mendoza lo capturaron 6 veces.
+• Con la jornada completa del domingo (12 partidos, sin elegir): 10 de 12.
+
+🎯 Acumulado NFL fuera de muestra (semanas 4–10): 65 de 100 contra 63 esperados; calibración p = 0.98.
+
+Minnesota ganó en Green Bay por 20 siendo el 19° en calidad. ¿Ya cambió o fue un domingo raro? 👇
+
+Revisamos los 8 partidos del domingo que analizamos antes, con probabilidades fijadas antes de cada partido. Método en el último slide. Datos: nflverse. Resultados: AP, ESPN, DAZN.
+Análisis independiente, no afiliado a la NFL ni a los equipos. No es recomendación de apuesta.
+
+#NFL #DatosDeportivos #Estadística #xGol
