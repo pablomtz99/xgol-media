@@ -1,0 +1,19 @@
+Resumen del lunes 📊 Fallamos con Baltimore
+
+Antes de cada partido calculamos probabilidades. Hoy las comparamos con lo que pasó, ganemos o perdamos.
+
+🏈 Chargers 23, Ravens 20. Le dábamos 73% a Baltimore y los Chargers ganaron su primer partido del año (1-8).
+
+• Error de la noche (Brier): 0.53. Un volado: 0.25.
+• Se decidió por tierra: 160 yardas contra 16. Derrick Henry, 10 acarreos para 10 yardas.
+• Jacoby Brissett lanzó 340 yardas en su debut con Baltimore, pero un balón suelto a 2:03 del final cerró la puerta.
+• Antes del partido anotamos el riesgo: con solo el último mes, Baltimore bajaba a 64%, y era su 4° mariscal titular en 4 partidos.
+
+🎯 Acumulado NFL fuera de muestra (semanas 4–10): 66 de 101 contra 62 esperados; error 0.228; calibración p = 0.86. Nuestros favoritos de 70% o más: 13 de 17 (dijimos 76%).
+
+¿Los Chargers ya despertaron o fue un lunes raro? El domingo reciben a los Jets 👇
+
+Probabilidad fijada antes del partido. Método en el último slide. Datos: nflverse. Resultados: AP, ESPN.
+Análisis independiente, no afiliado a la NFL ni a los equipos. No es recomendación de apuesta.
+
+#NFL #DatosDeportivos #Estadística #xGol
