@@ -1,0 +1,19 @@
+Resumen del miércoles 📊 Grimes volvió a su nivel
+
+Antes de cada partido fijamos un número. Hoy lo comparamos con lo que pasó, salga bien o mal.
+
+🏀 Quentin Grimes venía de 15 de 20 triples en dos partidos. Le estimamos un nivel real de 37% (rango 35–40%). Ante Utah metió 4 de 10: 40%.
+
+• Si su mano siguiera «caliente» (75%), 4 de 10 o menos pasaría 1 de cada 51 noches.
+• Con 10 intentos esperábamos 3.7 triples (rango 2 a 6). Metió 4.
+• Su temporada: 47 de 109 (43%). Todavía no se distingue de su 37% de carrera (p = 0.16).
+• Jazz 109, Lakers 97: Utah cortó la racha de 9 de Los Ángeles. Los Lakers tiraron 9 de 33 de tres.
+
+Ayer no fijamos ganador, así que no hay error de la noche (Brier).
+
+¿Grimes es un tirador de 37% o de 43%? 👇
+
+Estimación fijada antes del partido. Método en el último slide. Datos: CBS Sports, NBC Sports, AP.
+Análisis independiente, no afiliado a la NBA ni a los equipos. No es recomendación de apuesta.
+
+#NBA #Lakers #DatosDeportivos #Estadística #xGol
