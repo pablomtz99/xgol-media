@@ -1,0 +1,17 @@
+Resumen del jueves 📊 2 de 2
+
+Antes de cada partido fijamos un número. Hoy lo comparamos con lo que pasó, salga bien o mal.
+
+🏈 Texans 26, Colts 3. Le dábamos 70% a Houston y una ventaja de 7 puntos. Ganó por 23: más de lo previsto, pero dentro de nuestro rango. Indianapolis se quedó en 167 yardas.
+🏀 Trail Blazers 124, Bucks 114. A Milwaukee le dábamos 26% y estimamos que perdía por 9.5. Perdió por 10. Lillard metió 33 en su regreso a Milwaukee.
+
+• Aciertos: 2 de 2 (esperábamos 1.45).
+• Error de la noche (Brier): 0.077. Un volado da 0.25; menos es mejor.
+• NFL acumulado fuera de muestra: 67 de 102, y calibrado (prueba de Spiegelhalter, p = 0.78).
+
+Milwaukee va 1-15 y suma 12 derrotas seguidas. ¿Llega a la racha récord de 15? 👇
+
+Probabilidades fijadas antes de los partidos. Método en el último slide. Datos: nflverse, Basketball-Reference. Resultados: AP, ESPN, CBS Sports.
+Análisis independiente, no afiliado a la NFL, la NBA ni a los equipos. No es recomendación de apuesta.
+
+#NFL #NBA #Texans #Bucks #DatosDeportivos #Estadística #xGol
