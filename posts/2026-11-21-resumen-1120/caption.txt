@@ -1,0 +1,22 @@
+Resumen del viernes 📊 6 de 9
+
+Antes de cada partido fijamos un número. Hoy lo comparamos con lo que pasó, salga bien o mal.
+
+🏀 Ayer dijimos que en los 9 partidos de la NBA lo normal eran 2 o 3 sorpresas. Hubo 3:
+• Raptors 105, Pistons 102 (a Detroit le dábamos 68%).
+• Wizards 98, Bulls 94 (Chicago 64%). Anthony Davis metió 36.
+• Nuggets 133, Rockets 124 (Houston 54%, el partido más parejo).
+
+Los favoritos claros sí aguantaron: Cleveland (76%) con 51 puntos de Harden, Oklahoma City (84%) con 40 de Gilgeous-Alexander y los Lakers (84%), que solo le ganaron por 2 a Sacramento.
+
+• Aciertos: 6 de 9 (esperábamos 6.2).
+• Error de la noche (Brier): 0.183. Un volado da 0.25; menos es mejor.
+• Los 9 márgenes cayeron dentro de nuestro rango de 80%.
+• Calibración de la noche: prueba de Spiegelhalter, p = 0.73 (con 9 partidos es una pista, no una prueba).
+
+Sacramento va 1-14 y casi tumba a los Lakers. ¿Cuándo llega su segunda victoria? 👇
+
+Probabilidades fijadas antes de los partidos. Método en el último slide. Datos: Basketball-Reference. Resultados: NBA.com, SI.
+Análisis independiente, no afiliado a la NBA ni a los equipos. No es recomendación de apuesta.
+
+#NBA #CopaNBA #Cavaliers #Thunder #Lakers #DatosDeportivos #Estadística #xGol
