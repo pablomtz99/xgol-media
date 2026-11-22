@@ -1,0 +1,21 @@
+Resumen del sábado 📊 0 de 3
+
+Antes de cada partido fijamos un número. Hoy lo comparamos con lo que pasó, salga bien o mal. Y ayer salió mal.
+
+⚽ Nuestros tres favoritos no ganaron:
+• Pumas 0, Monterrey 2 (a Pumas le dábamos 42%). Orellano anotó al 74' y al 90+1'.
+• Newcastle 2, Arsenal 2 (Arsenal 47%). Madueke empató al 78'.
+• Tigres 1, América 0 (América 52%). Brunetta al 90'.
+
+• Aciertos: 0 de 3 (esperábamos 1.4). Con estas probabilidades, un 0 de 3 pasa 1 de cada 7 noches.
+• Error de la noche (Brier de 3 resultados): 0.81. Repartir un tercio a cada resultado da 0.67; menos es mejor.
+• ¿Prueba de que el modelo está mal calibrado? No: 1 de cada 10 noches sale así por azar (p = 0.10, n = 3). Es una pista que seguimos midiendo.
+
+Lo que sí salió: Monterrey a Liguilla (le dábamos 70%) y Pumas fuera (8%). Y la derrota de América deja el 1° lugar entre Cruz Azul (54%) y Chivas (46%).
+
+Cruz Azul o Chivas: ¿quién termina primero hoy? 👇
+
+Probabilidades fijadas antes de los partidos. Método en el último slide. Resultados: ESPN, Bolavip, Noticias MXM, Heraldo de México.
+Análisis independiente, no afiliado a ninguna liga ni a los clubes. No es recomendación de apuesta.
+
+#LigaMX #PremierLeague #Tigres #América #Rayados #Pumas #Arsenal #DatosDeportivos #Estadística #xGol
