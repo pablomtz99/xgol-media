@@ -1,0 +1,24 @@
+Resumen del domingo 📊 4 de 9
+
+Antes de cada partido fijamos un número. Hoy lo comparamos con lo que pasó, salga bien o mal.
+
+✅ Lo que salió:
+• Chivas 1, Cruz Azul 0. Le dábamos 46% y terminó superlíder por primera vez desde 2011.
+• NFL 3 de 4: Bears 21-13 Saints (66%), Broncos 38-24 Raiders (64%), Lions 31-21 Buccaneers (57%).
+
+❌ Las sorpresas:
+• Heat 123, Thunder 113 (Oklahoma City 62%). Jugó sin Gilgeous-Alexander; nuestro modelo NBA no ve bajas.
+• Warriors 88, Celtics 87 (Boston 54%).
+• Eagles 19, Steelers 16 (Pittsburgh 62%).
+• Atalanta 4, Inter 4 (Inter 53%) y Hull 2, Brighton 0 (Brighton 55%), con dos goles en el descuento.
+
+• Aciertos: 4 de 9 (esperábamos 5.2). Con estas probabilidades, 4 o menos pasa 1 de cada 3 noches.
+• NFL + NBA: error de 0.249 (volado = 0.25), dentro de lo esperado si nuestras probabilidades son correctas (p = 0.41).
+• Futbol: 1 de 6 entre sábado y domingo (p = 0.047). Es un indicio, no una prueba, y ya estamos revisando cómo pesa la localía y el empate.
+
+¿Quién pasa en cuartos: Chivas o Pachuca? 👇
+
+Probabilidades fijadas antes de los partidos. Método en el último slide. Resultados: ESPN, CBS Sports, NBA.com, Sky Sports, Claro Sports, LaPresse.
+Análisis independiente, no afiliado a ninguna liga ni a los clubes. No es recomendación de apuesta.
+
+#NFL #NBA #LigaMX #Chivas #SerieA #PremierLeague #DatosDeportivos #Estadística #xGol
