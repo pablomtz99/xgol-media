@@ -1,0 +1,22 @@
+Resumen del martes 📊 2 de 4
+
+Antes de cada partido fijamos un número. Hoy lo comparamos con lo que pasó, salga bien o mal.
+
+❌ Lo que no salió:
+• Arsenal 1, Dortmund 1 (Arsenal 60%).
+• Man City 2, Napoli 2 (Man City 75%). Que empataran los dos pasaba 1 de cada 37 veces.
+
+✅ Lo que salió:
+• Real Madrid 5, PSV 1 (Madrid 68%). PSV anotó primero y Madrid remontó.
+• Pistons 104, Magic 86 (Detroit 62%). Cunningham fue baja de último momento; sin él le dábamos 54% y ganó por 18.
+
+• Aciertos: 2 de 4 (esperábamos 2.6). Pasa 4 de cada 10 noches.
+• En futbol los empates pesaron: error 0.84 (repartir 33% a cada resultado da 0.67). Una noche así pasa 15 de cada 100 veces (p = 0.15).
+• Con 4 partidos no se concluye nada: por eso lo medimos noche tras noche.
+
+¿El empate en casa ya es tendencia para Arsenal y City o fue una noche rara? 👇
+
+Probabilidades fijadas antes de los partidos. Método en el último slide. Resultados: ESPN, AP, Yahoo Sports.
+Análisis independiente, no afiliado a ninguna liga ni a los equipos. No es recomendación de apuesta.
+
+#ChampionsLeague #NBA #Arsenal #ManCity #RealMadrid #Pistons #DatosDeportivos #Estadística #xGol
